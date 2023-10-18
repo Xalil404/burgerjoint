@@ -1,39 +1,39 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Burger Joint 
+The Burger Joint corporate website allows clients of the Burger Joint restaurant to book tables and meals in advance as well as as edit, delete or update their scheduled dine-in bookings should their plans change.  A prerequisite to making a table booking at the Burger Joint restaurant, the client must create or have a registered user account with the Burger Joint restaurant, otherwise, they will not be able to complete a table booking at the restaurant.   
+<p align="center">
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1697634827/Project%201/Screenshot_2023-10-18_at_2.13.27_PM_ssb4qh.png" width="auto" height="auto" alt="image of the Burger Joint website home page on all devices"></p>
 
-Welcome,
+## Business Requirements
+Prior to initiating the project's development, user stories were created to give a high level understanding of what the platform's functional requirements will be. The user stories were then placed into a kanban board in order to track the progress of the platform's development.  The Agile development kanban board can be found [here](https://github.com/users/Xalil404/projects/3/views/1).
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1697633908/Project%201/Screenshot_2023-10-18_at_1.57.42_PM_xtzgm7.png" width="auto" height="auto" alt="image of the burger joint project agile kanban board">
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Wireframes
+Once the user stories were completed, the next phase of the project was to complete the UX of all the expected pages and different CRUD functionalites in the platform.  The wireframes were done with a focus on mobile and web; tablets were expected to be an enlarged version of the mobile experience. 
 
-## Codeanywhere Reminders
+* Landing Page & menu
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1697634337/Project%201/Screenshot_2023-10-18_at_2.04.01_PM_coxmva.png" width="auto" height="auto" alt="landing page wireframes"> 
 
-`python3 -m http.server`
+* Account Registration Page
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1697634429/Project%201/Screenshot_2023-10-18_at_2.04.16_PM_mxsm6v.png" width="auto" height="auto" alt="account registration page wireframes"> 
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+* Account Log-in Page
 
-`http_server`
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1697634486/Project%201/Screenshot_2023-10-18_at_2.04.27_PM_sqrl8t.png" width="auto" height="auto" alt="account login page wireframes"> 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* Table Booking Page
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1697634559/Project%201/Screenshot_2023-10-18_at_2.04.37_PM_rldw23.png" width="auto" height="auto" alt="table booking page wireframes"> 
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* View Bookings Page with options to edit or delete bookings
 
-To log into the Heroku toolbelt CLI:
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1697634628/Project%201/Screenshot_2023-10-18_at_2.04.52_PM_hudysn.png" width="auto" height="auto" alt="view bookings page wireframes"> 
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* Edit or Update Bookings Page
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1697634686/Project%201/Screenshot_2023-10-18_at_2.05.04_PM_lj8dll.png" width="auto" height="auto" alt="Edit bookings page wireframes"> 
 
----
-
-Happy coding!
+## Features 
+The Burger website consists of ...
