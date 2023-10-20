@@ -15,9 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from Booking_App.views import say_hello
+from Booking_App.views import get_home_page
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('hello/', say_hello, name = 'hello'),
+    path('', get_home_page, name = 'get_home_page'),
 ]
