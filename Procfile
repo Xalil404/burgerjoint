@@ -1,1 +1,1 @@
-web: gunicorn BurgerJoint.wsgi
+web: python manage.py collectstatic --noinput && gunicorn BurgerJoint.wsgi
