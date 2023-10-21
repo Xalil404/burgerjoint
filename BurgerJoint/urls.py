@@ -28,3 +28,4 @@ urlpatterns = [
 #Code to serve static files during development
 if settings.DEBUG:
     urlpatterns += static(settings.STATIC_URL, document_root=settings.STATICFILES_DIRS[0])
+
