@@ -124,7 +124,7 @@ body {
 
 .link:hover,
 .link:active {
-    color: #445261;
+    color: #f6f8fa;
     text-decoration: underline;
 }
 
@@ -148,7 +148,7 @@ body {
 .container-with-background h3,
     .container-with-background p {
         color: white;
-    }
+}
 
 .big {
     line-height: 2.5; 
@@ -162,3 +162,41 @@ body {
     background-repeat: no-repeat;
     height: 100vh; 
 }
+
+.signup {
+    color: yellow;
+}
+
+.signup ul {
+    list-style-type: none; 
+}
+
+.signup label {
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+.login label {
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+.signup input[type="text"],
+.signup input[type="email"],
+.signup input[type="password"] {
+    width: 25%; /* Make input fields fill the container */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    width: 25%; /* Make input fields fill the container */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
