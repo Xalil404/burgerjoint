@@ -26,7 +26,7 @@ body {
 }
 
 .main-bg {
-    background-color: #F9FAFC;
+    background-color: #0f0f0f;
 }
 
 .card {
@@ -141,5 +141,24 @@ body {
     border: none;
 }
 
-/*Custom CSS*/
 
+
+
+
+.container-with-background h3,
+    .container-with-background p {
+        color: white;
+    }
+
+.big {
+    line-height: 2.5; 
+    
+}
+
+.container-with-background {
+    background-image: url('../media/1.webp');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+}
