@@ -225,7 +225,11 @@ body {
 }
 
 .btn-group {
-    width: 600px; /* Set an appropriate width for your container */
+    width: 500px; 
     margin-bottom: 50px; 
 }
 
+.carousel-caption {
+    top: 0; 
+    margin-top: 100px;   
+}

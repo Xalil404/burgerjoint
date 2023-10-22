@@ -63,5 +63,6 @@ The Burger website consists of ...
 
 * [The Habit Burger Grill](https://www.habitburger.com/) for menu items. 
 
-* [Cloudinary](https://cloudinary.com/) for image hosting.  
+* [Cloudinary](https://cloudinary.com/) for image hosting. 
 
+* [Picusm](https://picsum.photos/) for for placeholder images during development. 
