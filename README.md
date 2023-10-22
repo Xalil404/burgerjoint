@@ -62,3 +62,6 @@ The Burger website consists of ...
 * [Task Manager](https://zadachamanager-d3722b3cb1b7.herokuapp.com/), [To Do App](https://todoprilozheniya-b8e10f9f2dc1.herokuapp.com/), [Code Star Blog](https://helloblog-eb1bdbb756c3.herokuapp.com/) walk-through projects for guidance during development. 
 
 * [The Habit Burger Grill](https://www.habitburger.com/) for menu items. 
+
+* [Cloudinary](https://cloudinary.com/) for image hosting.  
+
