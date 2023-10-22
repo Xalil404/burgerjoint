@@ -109,6 +109,10 @@ body {
 .btn-signup {
     background-color: #23BBBB;
     color: #fff;
+    padding: 10px 20px; 
+    margin: 10px; 
+    border: none; 
+    border-radius: 5px;
 }
 
 .btn-signup:hover,
@@ -156,11 +160,12 @@ body {
 }
 
 .container-with-background {
-    background-image: url('../media/1.webp');
+    background-image: url(../media/1.webp);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 100vh; 
+    height: 120vh; 
+    
 }
 
 .signup {
@@ -233,4 +238,6 @@ body {
     top: 0; 
     margin-top: 100px;   
 }
+
+
 
