@@ -160,11 +160,12 @@ body {
 }
 
 .container-with-background {
-    background-image: url(../media/1.webp);
+    background-image: url('https://res.cloudinary.com/dugcwv1mf/image/upload/v1698056968/Project%204/Screenshot_2023-10-23_at_11.25.47_AM_hbyoha.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     height: 120vh; 
+    
     
 }
 
@@ -189,7 +190,7 @@ body {
 .signup input[type="text"],
 .signup input[type="email"],
 .signup input[type="password"] {
-    width: 25%; /* Make input fields fill the container */
+    width: 25%; 
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -198,7 +199,7 @@ body {
 
 .login input[type="text"],
 .login input[type="password"] {
-    width: 25%; /* Make input fields fill the container */
+    width: 25%; 
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -237,6 +238,14 @@ body {
 .carousel-caption {
     top: 0; 
     margin-top: 100px;   
+}
+
+.banner {
+    background-image: url("https://res.cloudinary.com/dugcwv1mf/image/upload/v1698058154/Project%204/Screenshot_2023-10-23_at_11.48.43_AM_yk00qa.png");
+    background-size: cover; 
+    background-position: center; 
+    color: #fff; 
+    border: 4px solid white;
 }
 
 
