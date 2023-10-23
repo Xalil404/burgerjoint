@@ -38,6 +38,22 @@ Once the user stories were completed, the next phase of the project was to compl
 ## Features 
 The Burger website consists of ...
 
+## Deployment
+
+Deployment of the Burger Joint application was done from the very start of the project and continous deployment was performed after every feature implementation in order to avoid any unforeseen hurdles or blockers during the final deployment of the application. Upon implementing the django framework and PostgreSQL databse in the my local environment, in order to deploy the project, the following steps were taken:
+
+* I created a new application in Heroku by giving it an app name and selecting its region.
+
+* Then in Elephant SQL I created a new instance in order to host the database. 
+
+* I copied the Elephant SQL Postgres URL which I then pasted into my env.py file and then added a few lines of code in my settings.py file to make my django project aware of it.
+
+* I completed migration of the database structure to the newly connected ElephantSQL database.
+
+* Once the database had been migrated to ElephantSQL and a Profile for Heroku was created, in the application's Heroku interface I added a few config vars in the project's settings.
+
+* Finally in the app's Heroku interface in the deploy section, I connected the project's Github repository and initiated manual deployment.
+
 ## Credits
 * All images provided by [Unsplash](https://unsplash.com/) & [Pixels](https://www.pexels.com/).
 
