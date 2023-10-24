@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
-from Booking_App.views import get_home_page, addtable, edit_booking  
+from Booking_App.views import get_home_page, addtable, edit_booking, delete_booking  
 from Booking_App.views import booktable  
 
 urlpatterns = [
@@ -26,7 +26,8 @@ urlpatterns = [
     path('accounts/', include('allauth.urls'), name='account'),
     path('booktable/', booktable, name='booktable'),
     path('addtable/', addtable, name='addtable'),
-    path('edit_booking/<booking_id>', edit_booking, name='edit_booking')
+    path('edit_booking/<booking_id>', edit_booking, name='edit_booking'),
+    path('delete/<booking_id>', delete_booking, name='delete_booking'),
 ]
 
 #Code to serve static files during development
