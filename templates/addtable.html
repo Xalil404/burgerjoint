@@ -2,28 +2,58 @@
 
 {% block content %}
 
-<h1>Book Your Burger Joint Table</h1>
-<form method="POST" action="{% url 'addtable' %}">
-    {% csrf_token %}
-    <div>
-        <p>
-            <label for = "id_name">Name:</label>
-            <input type="text" id="id_name" name="item_name" />
-        </p>
-    </div>
-    <div>
-        <p>
-            <label for = "id_done">Done:</label>
-            <input type="checkbox" id="id_done" name="done" />
-        </p>
-    </div>
-    <div>
-        <p>
-            <button type="submit">Add Item</button>
-        </p>
-    </div>
-</form>
 
+<div class="container mt-4">
+    <h1 class="mb-4">Create A Burger Joint Reservation</h1>
+
+    <!-- Existing bookings table (similar to your view bookings template) -->
+    <table class="table table-striped">
+        <!-- ... Your existing bookings table code ... -->
+    </table>
+
+    <!-- Add Booking Form -->
+    <div class="mb-4">
+        <h2>Add a Booking</h2>
+        <form method="POST" action="{% url 'addtable' %}">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <!--
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="phone_number">Phone Number:</label>
+                <input type="text" class="form-control" id="phone_number" name="phone_number" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="number_of_people">Number of People:</label>
+                <input type="number" class="form-control" id="number_of_people" name="number_of_people" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="booking_date">Booking Date:</label>
+                <input type="date" class="form-control" id="booking_date" name="booking_date" required>
+            </div>
+        
+        
+            <div class="form-group">
+                <label for="meals_desired">Meals Desired:</label>
+                <select class="form-control" id="meals_desired" name="meals_desired" required>
+                    <option value="breakfast">Breakfast</option>
+                    <option value="lunch">Lunch</option>
+                    <option value="dinner">Dinner</option>
+                </select>
+            </div>
+            -->
+            <button type="submit" class="btn btn-primary">Submit Booking</button>
+        </form>
+    </div>
+</div>
 
 
 {%endblock%}

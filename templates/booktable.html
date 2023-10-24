@@ -2,19 +2,45 @@
 
 {% block content %}
 
-<h1>Burger Joint Table Bookings</h1>
+<div class="container mt-4">
+    <h1 class="mb-4">Burger Joint Table Bookings</h1>
 
-<table>
-    {% for booking in bookings %}
-        <tr>
-            <td>{{ booking.name }}</td>
-            <td>{{ booking.done }}</td>
-        </tr>
-        {% empty %}
-            <tr><td>You have no Burger Joint Bookings to Show</td></tr>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for booking in bookings %}
+                <tr>
+                    <td>
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#booking{{ booking.id }}" aria-expanded="false">
+                            {{ booking.name }}
+                        </button>
+                        <div id="booking{{ booking.id }}" class="collapse">
+                            <p><strong>Phone Number:</strong> {{ booking.phone_number }}</p>
+                            <p><strong>Email:</strong> {{ booking.email }}</p>
+                            <p><strong>Number of People:</strong> {{ booking.number_of_people }}</p>
+                            <p><strong>Booking Date:</strong> {{ booking.booking_date }}</p>
+                            <p><strong>Meals Desired:</strong> {{ booking.get_meals_desired_display }}</p>
+                        </div>
+                    </td>
+                    <td>
+                        <a class="btn btn-danger" href="#">Cancel Booking</a>
+                        <a class="btn btn-primary" href="{% url 'edit_booking' booking.id %}">Edit Booking</a>
+                    </td>
+                </tr>
+            {% empty %}
+                <tr>
+                    <td colspan="2">You have no Burger Joint Bookings to Show</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
 
-    {% endfor %}
-</table>
-<a href = "/addtable">Add an Item</a>
+    <a class="btn btn-primary" href="/addtable">Add a Booking</a>
+</div>
 
-{%endblock%}
+{% endblock %}
