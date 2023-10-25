@@ -29,8 +29,13 @@
                         </div>
                     </td>
                     <td>
-                        
+                        <!--
                         <a class="btn btn-danger" href="{% url 'delete_booking' booking.id %}">Cancel Booking</a>
+                        -->
+                        <a class="btn btn-danger delete-booking" href="#" data-bs-toggle="modal" data-bs-target="#confirmDeleteModal" data-booking-id="{{ booking.id }}" data-delete-url="{% url 'delete_booking' booking.id %}">Cancel Booking</a>
+
+
+
                         <a class="btn btn-primary" href="{% url 'edit_booking' booking.id %}">Edit Booking</a>
                     </td>
                 </tr>
