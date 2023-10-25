@@ -257,8 +257,11 @@ body {
 
 .main-bg {
     flex: 1; 
-  }
+}
 
+.white-text {
+    color: white; 
+}
 
 
 
