@@ -2,13 +2,6 @@ from django.db import models
 from django.contrib.auth.models import User
 from django.utils import timezone
 
-# Create your models here.
-#class Booking(models.Model):
-#    name = models.CharField(max_length=50, null=False, blank=False)
-#    done = models.BooleanField(null=False, blank=False, default=False) 
-#
-#    def __str__(self):
-#        return self.name
 
 def get_current_date():
     return timezone.now()
@@ -23,20 +16,35 @@ class Booking(models.Model):
         blank=False,
         default=get_current_date  
     )
+    booking_time = models.TimeField(
+        null=False,
+        blank=False,
+        default=timezone.now 
+    )
     meals_desired = models.CharField(
-        max_length=20,
+        max_length=80,
         choices=[
-            ('Burger', 'Burger'),
-            ('Pizza', 'Pizza'),
-            ('Fries', 'Fries'),
-            ('Cheese Burger', 'Cheese Burger'),
-            ('Cola', 'Cola'),
-            ('Pepsi', 'Pepsi'),
-            # Add more menu items here
+            ('CHARBURGER WITH CHEESE', 'CHARBURGER WITH CHEESE'),
+            ('CHARBURGER', 'CHARBURGER'),
+            ('DOUBLE CHAR WITH CHEESE', 'DOUBLE CHAR WITH CHEESE'),
+            ('BBQ CHAR WITH CHEESE', 'BBQ CHAR WITH CHEESE'),
+            ('PORTABELLA CHAR', 'PORTABELLA CHAR'),
+            ('TERIYAKI CHAR', 'TERIYAKI CHAR'),
+            ('GRILLED CHICKEN-WICH', 'GRILLED CHICKEN-WICH'),
+            ('SPICY CRISPY CHICKEN', 'SPICY CRISPY CHICKEN'),
+            ('CHICKEN CLUB', 'CHICKEN CLUB'),
+            ('AHI TUNA FILET', 'AHI TUNA FILET'),
+            ('VEGGIE BURGER', 'VEGGIE BURGER'),
+            ('VEGGIE CHEESE BURGER', 'VEGGIE CHEESE BURGER'),
+            ('CHICKEN CAESAR', 'CHICKEN CAESAR'),
+            ('GARDEN SALAD', 'GARDEN SALAD'),
+            ('10 PCS CRISPY', '10 PCS CRISPY'),
+            ('FRENCH FRIES', 'FRENCH FRIES'),
+            ('ONION RINGS', 'ONION RINGS'),
         ],
         null=False,
         blank=False,
-        default='Burger'
+        default='CHARBURGER'
     )
 
     def __str__(self):

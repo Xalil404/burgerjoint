@@ -3,7 +3,7 @@
 {% block content %}
 
 <div class="container mt-4">
-    <h1 class="mb-4">Burger Joint Table Bookings</h1>
+    <h1 class="mb-4 text-white">Burger Joint Table Bookings</h1>
 
     <table class="table table-striped">
         <thead>
@@ -16,18 +16,20 @@
             {% for booking in bookings %}
                 <tr>
                     <td>
-                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#booking{{ booking.id }}" aria-expanded="false">
+                        <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#booking{{ booking.id }}" aria-expanded="false">
                             {{ booking.name }}
                         </button>
                         <div id="booking{{ booking.id }}" class="collapse">
                             <p><strong>Phone Number:</strong> {{ booking.phone_number }}</p>
                             <p><strong>Email:</strong> {{ booking.email }}</p>
                             <p><strong>Number of People:</strong> {{ booking.number_of_people }}</p>
-                            <p><strong>Booking Date:</strong> {{ booking.booking_date }}</p>
-                            <p><strong>Meals Desired:</strong> {{ booking.get_meals_desired_display }}</p>
+                            <p><strong>Booking Date:</strong> {{ booking.booking_date|date }}</p>
+                            <p><strong>Booking Time:</strong> {{ booking.booking_time }}</p>
+                            <p><strong>Meal Desired:</strong> {{ booking.get_meals_desired_display }}</p>
                         </div>
                     </td>
                     <td>
+                        
                         <a class="btn btn-danger" href="{% url 'delete_booking' booking.id %}">Cancel Booking</a>
                         <a class="btn btn-primary" href="{% url 'edit_booking' booking.id %}">Edit Booking</a>
                     </td>

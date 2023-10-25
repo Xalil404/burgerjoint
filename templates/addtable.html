@@ -2,58 +2,53 @@
 
 {% block content %}
 
-
 <div class="container mt-4">
-    <h1 class="mb-4">Create A Burger Joint Reservation</h1>
+    <h1 class="mb-4 text-white">Create A Burger Joint Reservation</h1>
 
-    <!-- Existing bookings table (similar to your view bookings template) -->
-    <table class="table table-striped">
-        <!-- ... Your existing bookings table code ... -->
-    </table>
-
-    <!-- Add Booking Form -->
     <div class="mb-4">
-        <h2>Add a Booking</h2>
+        <h2 class="text-white">Add a Booking</h2>
         <form method="POST" action="{% url 'addtable' %}">
             {% csrf_token %}
-            {{ form.as_p }}
-            <!--
-            <div class="form-group">
-                <label for="name">Name:</label>
-                <input type="text" class="form-control" id="name" name="name" required>
-            </div>
-            <div class="form-group">
-                <label for="phone_number">Phone Number:</label>
-                <input type="text" class="form-control" id="phone_number" name="phone_number" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" class="form-control" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-                <label for="number_of_people">Number of People:</label>
-                <input type="number" class="form-control" id="number_of_people" name="number_of_people" required>
-            </div>
             
-            <div class="form-group">
-                <label for="booking_date">Booking Date:</label>
-                <input type="date" class="form-control" id="booking_date" name="booking_date" required>
+            <div class="mb-3 text-white">
+                <label for="{{ form.name.id }}" class="form-label">Name:</label>
+                {{ form.name }}
             </div>
-        
-        
-            <div class="form-group">
-                <label for="meals_desired">Meals Desired:</label>
-                <select class="form-control" id="meals_desired" name="meals_desired" required>
-                    <option value="breakfast">Breakfast</option>
-                    <option value="lunch">Lunch</option>
-                    <option value="dinner">Dinner</option>
-                </select>
+
+            <div class="mb-3 text-white">
+                <label for="{{ form.phone_number.id }}" class="form-label">Phone Number:</label>
+                {{ form.phone_number }}
             </div>
-            -->
+
+            <div class="mb-3 text-white">
+                <label for="{{ form.email.id }}" class="form-label">Email:</label>
+                {{ form.email }}
+            </div>
+
+            <div class="mb-3 text-white">
+                <label for="{{ form.number_of_people.id }}" class="form-label">Number of People:</label>
+                {{ form.number_of_people }}
+            </div>
+
+            <div class="mb-3 text-white">
+                <label for="{{ form.booking_date.id }}" class="form-label">Booking Date:</label>
+                {{ form.booking_date }}
+            </div>
+
+            <div class="mb-3 text-white">
+                <label for="{{ form.booking_time.id }}" class="form-label">Booking Time:</label>
+                {{ form.booking_time }}
+            </div>
+
+            <div class="mb-3 text-white">
+                <label for="{{ form.meals_desired.id }}" class="form-label">Meal Desired:</label>
+                {{ form.meals_desired }}
+            </div>
+
             <button type="submit" class="btn btn-primary">Submit Booking</button>
         </form>
     </div>
-</div>
 
+</div>
 
 {%endblock%}

@@ -19,35 +19,12 @@ def booktable(request):
 
     return render(request, 'booktable.html', {'bookings': bookings}) 
 
-#def addtable(request):
-#    if request.method == 'POST':
-#        name = request.POST.get('item_name')
-#        done = 'done' in request.POST
-#        Booking.objects.create(name=name, done=done)
-#
-#        return redirect('booktable')
-#    return render(request, 'addtable.html')
 
 def addtable(request):
     if request.method == 'POST':
         form=BookingForm(request.POST)
         if form.is_valid():
             form.save()
-#        name = request.POST.get('name')
-#        phone_number = request.POST.get('phone_number')
-#        email = request.POST.get('email')
-#        number_of_people = request.POST.get('number_of_people')
-#        booking_date = request.POST.get('booking_date')
-#        meals_desired = request.POST.get('meals_desired')
-
-#        Booking.objects.create(
-#            name=name,
-#            phone_number=phone_number,
-#            email=email,
-#            number_of_people=number_of_people,
-#            booking_date=booking_date,
-#            meals_desired=meals_desired,
-#        )
 
         return redirect('booktable')
     form=BookingForm()

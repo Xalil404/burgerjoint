@@ -4,20 +4,48 @@
 
 
 <div class="container mt-4">
-    <h1 class="mb-4">Create A Burger Joint Reservation</h1>
+    <h1 class="mb-4 text-white">Update Burger Joint Reservation</h1>
 
-    <!-- Existing bookings table (similar to your view bookings template) -->
-    <table class="table table-striped">
-        <!-- ... Your existing bookings table code ... -->
-    </table>
-
-    <!-- Add Booking Form -->
     <div class="mb-4">
-        <h2>Edit a Booking</h2>
+        <h2 class="text-white">Edit Booking</h2>
         <form method="POST">
             {% csrf_token %}
-            {{ form.as_p }}
             
+            <div class="mb-3 text-white">
+                <label for="{{ form.name.id }}" class="form-label">Name:</label>
+                {{ form.name }}
+            </div>
+
+            <div class="mb-3 text-white">
+                <label for="{{ form.phone_number.id }}" class="form-label">Phone Number:</label>
+                {{ form.phone_number }}
+            </div>
+
+            <div class="mb-3 text-white">
+                <label for="{{ form.email.id }}" class="form-label">Email:</label>
+                {{ form.email }}
+            </div>
+
+            <div class="mb-3 text-white">
+                <label for="{{ form.number_of_people.id }}" class="form-label">Number of People:</label>
+                {{ form.number_of_people }}
+            </div>
+
+            <div class="mb-3 text-white">
+                <label for="{{ form.booking_date.id }}" class="form-label">Booking Date:</label>
+                {{ form.booking_date }}
+            </div>
+
+            <div class="mb-3 text-white">
+                <label for="{{ form.booking_time.id }}" class="form-label">Booking Time:</label>
+                {{ form.booking_time }}
+            </div>
+
+            <div class="mb-3 text-white">
+                <label for="{{ form.meals_desired.id }}" class="form-label">Meal Desired:</label>
+                {{ form.meals_desired }}
+            </div>
+
             <button type="submit" class="btn btn-primary">Update Booking</button>
         </form>
     </div>
