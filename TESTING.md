@@ -33,7 +33,7 @@ The platform was tested for responsiveness on the following devices:
 Testing results of functionalities not considered to be feature or user story.
 
 | Function(s) | Screenshot | Expected Result | Notes |
-| --- | --- | --- |
+| --- | --- | --- | --- |
 | Web Navigation | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1692013797/Project%201/Screenshot_2023-08-14_at_12.46.52_PM_e7oqh5.png) | Should be visible in the middle of the header | Works as expected |
 | Mobile Navigation | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1692013797/Project%201/Screenshot_2023-08-14_at_12.46.52_PM_e7oqh5.png) | Should be visible in a hamburger dropdown menu in the header | Works as expected |
 
@@ -41,4 +41,4 @@ Testing results of functionalities not considered to be feature or user story.
 
 | User Story | Screenshot | Notes |
 | --- | --- | --- |
-| As a user I can .... | ![screenshot](documentation/features/sitepages/home.png) | Works as expected |
+| As a user I can .... | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1692013797/Project%201/Screenshot_2023-08-14_at_12.46.52_PM_e7oqh5.png) | Works as expected |
