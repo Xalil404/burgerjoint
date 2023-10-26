@@ -12,7 +12,7 @@ def get_home_page(request):
 
 @login_required
 def booktable(request):
-    bookings = Booking.objects.all()
+    bookings = Booking.objects.filter(user=request.user)
     context = {
         'bookings': bookings
     }
@@ -24,6 +24,7 @@ def addtable(request):
     if request.method == 'POST':
         form=BookingForm(request.POST)
         if form.is_valid():
+            form.instance.user = request.user
             form.save()
 
         return redirect('booktable')

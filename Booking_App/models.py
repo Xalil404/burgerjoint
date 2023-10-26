@@ -7,6 +7,7 @@ def get_current_date():
     return timezone.now()
 
 class Booking(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE, default=1)
     name = models.CharField(max_length=50, null=False, blank=False)
     phone_number = models.CharField(max_length=15, null=False, blank=False, default='085 123 3434')
     email = models.EmailField(null=False, blank=False, default='myemail@gmail.com')
