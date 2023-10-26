@@ -4,7 +4,10 @@ This document is a summary of the manual testing which was done for the Burger J
 ## Code Validators 
 | Instrument | URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| W3C | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbushy-park-tennis-club-896947b1504e.herokuapp.com%2F) | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1692013797/Project%201/Screenshot_2023-08-14_at_12.46.52_PM_e7oqh5.png) | Pass: No Errors |
+| W3C | [W3C](https://validator.w3.org/) | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1692013797/Project%201/Screenshot_2023-08-14_at_12.46.52_PM_e7oqh5.png) | Pass: No Errors |
+| W3C CSS | [W3C CSS](https://jigsaw.w3.org/css-validator/) | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1692013797/Project%201/Screenshot_2023-08-14_at_12.46.52_PM_e7oqh5.png) | Pass: No Errors |
+| JSHint | [JSHint](https://jshint.com/) | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1692013797/Project%201/Screenshot_2023-08-14_at_12.46.52_PM_e7oqh5.png) | Pass: No Errors |
+| Pep8 | [Pep8](https://pep8ci.herokuapp.com/) | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1692013797/Project%201/Screenshot_2023-08-14_at_12.46.52_PM_e7oqh5.png) | Pass: No Errors |
 
 ## Browser Compatibility
 The platform was tested on the following browsers: Chrome, Safar & Firefox.
@@ -36,6 +39,15 @@ Testing results of functionalities not considered to be feature or user story.
 | --- | --- | --- | --- |
 | Web Navigation | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1692013797/Project%201/Screenshot_2023-08-14_at_12.46.52_PM_e7oqh5.png) | Should be visible in the middle of the header | Works as expected |
 | Mobile Navigation | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1692013797/Project%201/Screenshot_2023-08-14_at_12.46.52_PM_e7oqh5.png) | Should be visible in a hamburger dropdown menu in the header | Works as expected |
+| Landing Page Carousel | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1692013797/Project%201/Screenshot_2023-08-14_at_12.46.52_PM_e7oqh5.png) | The carousel should rotate on its own, have clickable indicators and buttons to go through the slides. | Works as expected |
+| Landing Page Jumbotron - under the carousel | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1692013797/Project%201/Screenshot_2023-08-14_at_12.46.52_PM_e7oqh5.png) | Clicking on the Jumbotron CTA buton should take the user to the booking page if they are logged in or the sign-in page if they are logged out. | Works as expected |
+| Landing Page Jumbotron above the footer | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1692013797/Project%201/Screenshot_2023-08-14_at_12.46.52_PM_e7oqh5.png) | Clicking on the Jumbotron CTA buton should take the user to the booking page if they are logged in or the sign-in page if they are logged out. | Works as expected |
+| Landing Page Menu filter | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1692013797/Project%201/Screenshot_2023-08-14_at_12.46.52_PM_e7oqh5.png) | Clicking on the different meal categories should show the relevant meals. | Works as expected |
+| Landing Page Menu filter - Mobile | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1692013797/Project%201/Screenshot_2023-08-14_at_12.46.52_PM_e7oqh5.png) | The different meal categories filter should be a drop down menu. | Works as expected |
+| Footer Social Media links | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1692013797/Project%201/Screenshot_2023-08-14_at_12.46.52_PM_e7oqh5.png) | Clicking on the four social media links should open up those platforms in a new tab. | Works as expected |
+| Logged-in Status | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1692013797/Project%201/Screenshot_2023-08-14_at_12.46.52_PM_e7oqh5.png) | When a user is logged in they should no longer see the log-in and register buttons in the navigation. | Works as expected |
+| Logged-out Status | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1692013797/Project%201/Screenshot_2023-08-14_at_12.46.52_PM_e7oqh5.png) | When a user is logged out they should see the log-in and register buttons in the navigation and no longer see the log-out button. | Works as expected |
+| Website Logo & Home Page | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1692013797/Project%201/Screenshot_2023-08-14_at_12.46.52_PM_e7oqh5.png) | Clicking on the home page logo and home page button in the header should take the user to the home page. | Works as expected |
 
 ## Features & User Story Testing
 
