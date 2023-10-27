@@ -1,5 +1,6 @@
 from django import forms
-from .models import Booking
+from .models import Booking, Delivery
+from django.contrib import admin
 
 class BookingForm(forms.ModelForm):
     class Meta:
@@ -9,3 +10,11 @@ class BookingForm(forms.ModelForm):
             'booking_date': forms.DateInput(attrs={'type': 'date'}),
             'user': forms.HiddenInput(),
         }
+
+
+class DeliveryForm(forms.ModelForm):
+    class Meta:
+        model = Delivery
+        fields = '__all__'
+
+
