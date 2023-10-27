@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container mt-4 text-center">
+    <h1 class="mb-4 text-white">Place A Burger Joint Delivery</h1>
+
+    <div class="mb-4">
+        <h2 class="text-white">Place Order</h2>
+        <form method="POST" action="{% url 'create_delivery' %}">
+            {% csrf_token %}
+            
+            <div class="mb-3 text-white">
+                <label for="{{ form.name.id }}" class="form-label">Name:</label>
+                {{ form.name }}
+            </div>
+
+            <div class="mb-3 text-white">
+                <label for="{{ form.phone_number.id }}" class="form-label">Phone Number:</label>
+                {{ form.phone_number }}
+            </div>
+
+            <div class="mb-3 text-white">
+                <label for="{{ form.address.id }}" class="form-label">Address:</label>
+                {{ form.address }}
+            </div>
+
+            <div class="mb-3 text-white">
+                <label for="id_city" class="form-label">City:</label>
+                {{ form.city }}
+            </div>
+
+            <div class="mb-3 text-white">
+                <label for="{{ form.booking_date.id }}" class="form-label">Delivery Date:</label>
+                {{ form.booking_date }}
+            </div>
+ 
+            <div class="mb-3 text-white">
+                <label for="{{ form.meals_desired.id }}" class="form-label">Meal Desired:</label>
+                {{ form.meals_desired }}
+            </div>
+
+            <div class="mb-3 text-white">
+                <label for="{{ form.additional_information.id }}" class="form-label">Additional Information:</label>
+                {{ form.additional_information }}
+            </div>
+
+            <button type="submit" class="btn btn-primary">Place Order</button>
+
+        </form>
+    </div>
+
+</div>
+
+
+{%endblock%}
