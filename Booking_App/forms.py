@@ -15,10 +15,8 @@ class BookingForm(forms.ModelForm):
 class DeliveryForm(forms.ModelForm):
     class Meta:
         model = Delivery
-        fields = '__all__'
+        fields = ['name', 'phone_number', 'address', 'city', 'booking_date', 'meals_desired', 'additional_information']
         widgets = {
             'booking_date': forms.DateInput(attrs={'type': 'date'}),
             'user': forms.HiddenInput(),
         }
-
-
