@@ -14,23 +14,23 @@ The platform was tested on the following browsers: Chrome, Safar & Firefox.
 
 | Browser | Screenshot | Notes |
 | --- | --- | --- |
-| Chrome | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1692013797/Project%201/Screenshot_2023-08-14_at_12.46.52_PM_e7oqh5.png) | Works as expected |
-| Firefox | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1692013797/Project%201/Screenshot_2023-08-14_at_12.46.52_PM_e7oqh5.png) | Works as expected |
-| Safari | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1692013797/Project%201/Screenshot_2023-08-14_at_12.46.52_PM_e7oqh5.png) | Works as expected |
+| Chrome | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698493384/Project%204/Screenshot_2023-10-28_at_12.41.33_PM_slrcj7.png) | Works as expected |
+| Firefox | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698493424/Project%204/Screenshot_2023-10-28_at_12.41.54_PM_lzpx2q.png) | Works as expected |
+| Safari | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698493456/Project%204/Screenshot_2023-10-28_at_12.42.23_PM_mlbrav.png) | Works as expected |
 
 ## Responsiveness
 The platform was tested for responsiveness on the following devices: 
 
 | Device | Screenshot | Notes |
 | --- | --- | --- |
-| iPhone SE | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1692013797/Project%201/Screenshot_2023-08-14_at_12.46.52_PM_e7oqh5.png) | Works as expected |
-| iPhone XR | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1692013797/Project%201/Screenshot_2023-08-14_at_12.46.52_PM_e7oqh5.png) | Works as expected |
-| iPhone 12 PRO | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1692013797/Project%201/Screenshot_2023-08-14_at_12.46.52_PM_e7oqh5.png) | Works as expected |
-| Galaxy Fold | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1692013797/Project%201/Screenshot_2023-08-14_at_12.46.52_PM_e7oqh5.png) | Works as expected |
-| Galaxy S8+ | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1692013797/Project%201/Screenshot_2023-08-14_at_12.46.52_PM_e7oqh5.png) | Works as expected |
-| Nest Hub Max | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1692013797/Project%201/Screenshot_2023-08-14_at_12.46.52_PM_e7oqh5.png) | Works as expected |
-| iPad Air | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1692013797/Project%201/Screenshot_2023-08-14_at_12.46.52_PM_e7oqh5.png) | Works as expected |
-| iPad Mini | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1692013797/Project%201/Screenshot_2023-08-14_at_12.46.52_PM_e7oqh5.png) | Works as expected |
+| iPhone SE | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698493548/Project%204/Screenshot_2023-10-28_at_12.45.32_PM_qdf1bb.png) | Works as expected |
+| iPhone XR | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698493598/Project%204/Screenshot_2023-10-28_at_12.46.21_PM_sd54x7.png) | Works as expected |
+| iPhone 12 PRO | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698493670/Project%204/Screenshot_2023-10-28_at_12.47.33_PM_kkqxc7.png) | Works as expected |
+| Galaxy Fold | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698493724/Project%204/Screenshot_2023-10-28_at_12.48.26_PM_cgkie2.png) | Works as expected |
+| Galaxy S8+ | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698493793/Project%204/Screenshot_2023-10-28_at_12.49.36_PM_ee0aqc.png) | Works as expected |
+| Nest Hub Max | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698493842/Project%204/Screenshot_2023-10-28_at_12.50.21_PM_wonxv9.png) | Works as expected |
+| iPad Air | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698493899/Project%204/Screenshot_2023-10-28_at_12.51.22_PM_r0rykb.png) | Works as expected |
+| iPad Mini | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698493950/Project%204/Screenshot_2023-10-28_at_12.52.08_PM_bgiusy.png) | Works as expected |
 
 ## Functional Testing
 Testing results of functionalities not considered to be feature or user story.
