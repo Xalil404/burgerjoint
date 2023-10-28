@@ -1,5 +1,6 @@
 # Burger Joint 
 The Burger Joint corporate website allows clients of the Burger Joint restaurant to book tables and meals in advance as well as as edit, delete or update their scheduled dine-in bookings should their plans change.  A prerequisite to making a table booking at the Burger Joint restaurant, the client must create or have a registered user account with the Burger Joint restaurant, otherwise, they will not be able to complete a table booking at the restaurant.   
+Link to live site [here](https://burger-joint-286ef76e4359.herokuapp.com/).
 <p align="center">
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698498511/Project%204/Screenshot_2023-10-28_at_2.07.02_PM_suhxrn.png" width="auto" height="auto" alt="image of the Burger Joint website home page on all devices"></p>
 
@@ -14,9 +15,9 @@ Once the user stories were completed, the next phase of the project was to compl
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698500773/Project%204/Screenshot_2023-10-28_at_2.45.41_PM_smntxv.png" width="auto" height="auto" alt="Burger joint project wireframes"> 
 
 ## Database Schema
-After the wire-frames completion, a database schema was created to understand what information should be stored on the back-end.
+After the wire-frames completion, a database schema was created to understand what information should be stored on the back-end database.
 
-<img src="" width="auto" height="auto" alt="Project DB schema"> 
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698509403/Project%204/Screenshot_2023-10-28_at_5.09.28_PM_zxwb9c.png" width="auto" height="auto" alt="Project DB schema"> 
 
 ## Features 
 The Burger website consists of the following pages and features:
@@ -120,3 +121,7 @@ Deployment of the Burger Joint application was done from the very start of the p
 * [Cloudinary](https://cloudinary.com/) for image hosting. 
 
 * [Picusm](https://picsum.photos/) for for placeholder images during development. 
+
+* [DrawSQL](https://drawsql.app/) to create database schema.
+
+* [Miro](https://miro.com/) to create design wireframes.
