@@ -1,12 +1,12 @@
 # Burger Joint 
 The Burger Joint corporate website allows clients of the Burger Joint restaurant to book tables and meals in advance as well as as edit, delete or update their scheduled dine-in bookings should their plans change.  A prerequisite to making a table booking at the Burger Joint restaurant, the client must create or have a registered user account with the Burger Joint restaurant, otherwise, they will not be able to complete a table booking at the restaurant.   
 <p align="center">
-<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1697634827/Project%201/Screenshot_2023-10-18_at_2.13.27_PM_ssb4qh.png" width="auto" height="auto" alt="image of the Burger Joint website home page on all devices"></p>
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698498511/Project%204/Screenshot_2023-10-28_at_2.07.02_PM_suhxrn.png" width="auto" height="auto" alt="image of the Burger Joint website home page on all devices"></p>
 
 ## Business Requirements
 Prior to initiating the project's development, user stories were created to give a high level understanding of what the platform's functional requirements will be. The user stories were then placed into a kanban board in order to track the progress of the platform's development.  The Agile development kanban board can be found [here](https://github.com/users/Xalil404/projects/3/views/1).
 
-<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1697633908/Project%201/Screenshot_2023-10-18_at_1.57.42_PM_xtzgm7.png" width="auto" height="auto" alt="image of the burger joint project agile kanban board">
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698498639/Project%204/Screenshot_2023-10-28_at_2.10.19_PM_r5wtpl.png" width="auto" height="auto" alt="image of the burger joint project agile kanban board">
 
 ## Wireframes
 Once the user stories were completed, the next phase of the project was to complete the UX of all the expected pages and different CRUD functionalites in the platform.  The wireframes were done with a focus on mobile and web; tablets were expected to be an enlarged version of the mobile experience. 
@@ -37,6 +37,9 @@ Once the user stories were completed, the next phase of the project was to compl
 
 ## Features 
 The Burger website consists of ...
+
+## Testing
+All fucntional testing, user story testing, device compatibility testing and browswer compatibility testing can be found in the [TestingMD](https://github.com/Xalil404/burgerjoint/blob/main/TESTING.md) file.
 
 ## Deployment
 
