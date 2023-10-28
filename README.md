@@ -11,32 +11,55 @@ Prior to initiating the project's development, user stories were created to give
 ## Wireframes
 Once the user stories were completed, the next phase of the project was to complete the UX of all the expected pages and different CRUD functionalites in the platform.  The wireframes were done with a focus on mobile and web; tablets were expected to be an enlarged version of the mobile experience. 
 
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698500773/Project%204/Screenshot_2023-10-28_at_2.45.41_PM_smntxv.png" width="auto" height="auto" alt="Burger joint project wireframes"> 
+
+## Database Schema
+After the wire-frames completion, a database schema was created to understand what information should be stored on the back-end.
+
+<img src="" width="auto" height="auto" alt="Project DB schema"> 
+
+## Features 
+The Burger website consists of the following pages and features:
+
 * Landing Page & menu
 
-<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1697634337/Project%201/Screenshot_2023-10-18_at_2.04.01_PM_coxmva.png" width="auto" height="auto" alt="landing page wireframes"> 
+<img src="" width="auto" height="auto" alt="landing page"> 
 
 * Account Registration Page
 
-<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1697634429/Project%201/Screenshot_2023-10-18_at_2.04.16_PM_mxsm6v.png" width="auto" height="auto" alt="account registration page wireframes"> 
+<img src="" width="auto" height="auto" alt="account registration page"> 
 
 * Account Log-in Page
 
-<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1697634486/Project%201/Screenshot_2023-10-18_at_2.04.27_PM_sqrl8t.png" width="auto" height="auto" alt="account login page wireframes"> 
+<img src="" width="auto" height="auto" alt="account login page"> 
 
 * Table Booking Page
 
-<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1697634559/Project%201/Screenshot_2023-10-18_at_2.04.37_PM_rldw23.png" width="auto" height="auto" alt="table booking page wireframes"> 
+<img src="" width="auto" height="auto" alt="table booking page"> 
 
 * View Bookings Page with options to edit or delete bookings
 
-<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1697634628/Project%201/Screenshot_2023-10-18_at_2.04.52_PM_hudysn.png" width="auto" height="auto" alt="view bookings page wireframes"> 
+<img src="" width="auto" height="auto" alt="view bookings page"> 
 
 * Edit or Update Bookings Page
 
-<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1697634686/Project%201/Screenshot_2023-10-18_at_2.05.04_PM_lj8dll.png" width="auto" height="auto" alt="Edit bookings page wireframes"> 
+<img src="" width="auto" height="auto" alt="Edit bookings page"> 
 
-## Features 
-The Burger website consists of ...
+* Create Food delivery page 
+
+<img src="" width="auto" height="auto" alt="create food delivery page"> 
+
+* View Food Deliveries Page with options to edit or delete delivery
+
+<img src="" width="auto" height="auto" alt="view deliveries page"> 
+
+* Edit or Update food delivery Page
+
+<img src="" width="auto" height="auto" alt="Edit delivery page"> 
+
+* Pop-up to confirm deletion of table booking or food delivery
+
+<img src="" width="auto" height="auto" alt="pop-up to delete booking or delivery"> 
 
 ## Testing
 All fucntional testing, user story testing, device compatibility testing and browswer compatibility testing can be found in the [TestingMD](https://github.com/Xalil404/burgerjoint/blob/main/TESTING.md) file.
