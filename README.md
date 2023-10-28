@@ -21,45 +21,57 @@ After the wire-frames completion, a database schema was created to understand wh
 ## Features 
 The Burger website consists of the following pages and features:
 
-* Landing Page & menu
+* Landing Page
 
-<img src="" width="auto" height="auto" alt="landing page"> 
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698502222/Project%204/Screenshot_2023-10-28_at_3.09.48_PM_ggu4lo.png" width="auto" height="auto" alt="landing page"> 
 
-* Account Registration Page
+* Menu with filtration options - web
 
-<img src="" width="auto" height="auto" alt="account registration page"> 
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698502324/Project%204/Screenshot_2023-10-28_at_3.11.45_PM_gd6kkp.png" width="auto" height="auto" alt="menu"> 
 
-* Account Log-in Page
+* Menu with filtration options - mobile
 
-<img src="" width="auto" height="auto" alt="account login page"> 
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698494676/Project%204/Screenshot_2023-10-28_at_1.04.15_PM_ciaoig.png" width="auto" height="auto" alt="mobile menu"> 
 
-* Table Booking Page
+* Create Table Booking Page
 
-<img src="" width="auto" height="auto" alt="table booking page"> 
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698495264/Project%204/Screenshot_2023-10-28_at_1.14.01_PM_faby1v.png" width="auto" height="auto" alt="table booking page"> 
 
 * View Bookings Page with options to edit or delete bookings
 
-<img src="" width="auto" height="auto" alt="view bookings page"> 
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698495450/Project%204/Screenshot_2023-10-28_at_1.17.11_PM_coc7bh.png" width="auto" height="auto" alt="view bookings page"> 
 
 * Edit or Update Bookings Page
 
-<img src="" width="auto" height="auto" alt="Edit bookings page"> 
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698495521/Project%204/Screenshot_2023-10-28_at_1.18.22_PM_fdrent.png" width="auto" height="auto" alt="Edit bookings page"> 
 
 * Create Food delivery page 
 
-<img src="" width="auto" height="auto" alt="create food delivery page"> 
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698496841/Project%204/Screenshot_2023-10-28_at_1.40.22_PM_w763aj.png" width="auto" height="auto" alt="create food delivery page"> 
 
 * View Food Deliveries Page with options to edit or delete delivery
 
-<img src="" width="auto" height="auto" alt="view deliveries page"> 
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698496972/Project%204/Screenshot_2023-10-28_at_1.42.33_PM_zknun1.png" width="auto" height="auto" alt="view deliveries page"> 
 
 * Edit or Update food delivery Page
 
-<img src="" width="auto" height="auto" alt="Edit delivery page"> 
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698497025/Project%204/Screenshot_2023-10-28_at_1.43.26_PM_ehx2kh.png" width="auto" height="auto" alt="Edit delivery page"> 
 
 * Pop-up to confirm deletion of table booking or food delivery
 
-<img src="" width="auto" height="auto" alt="pop-up to delete booking or delivery"> 
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698497117/Project%204/Screenshot_2023-10-28_at_1.44.58_PM_b725no.png" width="auto" height="auto" alt="pop-up to delete booking or delivery"> 
+
+* Account Registration Page
+
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698502374/Project%204/Screenshot_2023-10-28_at_3.12.31_PM_xv3rdh.png" width="auto" height="auto" alt="account registration page"> 
+
+* Account Log-in Page
+
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698495179/Project%204/Screenshot_2023-10-28_at_1.12.41_PM_a2poq3.png" width="auto" height="auto" alt="account login page"> 
+
+* Account Log-out Page
+
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698495701/Project%204/Screenshot_2023-10-28_at_1.21.22_PM_hptvnc.png" width="auto" height="auto" alt="account logout page"> 
 
 ## Testing
 All fucntional testing, user story testing, device compatibility testing and browswer compatibility testing can be found in the [TestingMD](https://github.com/Xalil404/burgerjoint/blob/main/TESTING.md) file.
