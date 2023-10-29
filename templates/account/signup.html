@@ -11,8 +11,9 @@
         <div class="col-md-8 mt-3 offset-md-2">
             <h3>{% trans "Sign Up" %}</h3>
 
-            <p class="big">{% blocktrans %}Welcome back to the Burger Joint! <br> To create reservations or manage your bookings at the Burger Joint, please create an account.<br> Do you already have an account?<br> Then please <a
-                    class="link" href="{{ login_url }}">Sign In</a> instead.{% endblocktrans %}</p>
+            <p class="big">{% blocktrans %}Welcome back to the Burger Joint! <br> To create reservations or manage your
+                bookings at the Burger Joint, please create an account.<br> Do you already have an account?<br> Then
+                please <a class="link" href="{{ login_url }}">Sign In</a> instead.{% endblocktrans %}</p>
         </div>
     </div>
     <div class="row mb-5">
@@ -21,11 +22,11 @@
                 {% csrf_token %}
                 {{ form.as_p }}
                 {% if redirect_field_value %}
-                <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}"/>
+                <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
                 {% endif %}
                 <button class="btn-signup" type="submit">{% trans "Sign Up" %} &raquo;</button><br>
-                <a href="{% provider_login_url 'google' %}" class="btn btn btn-danger btn-lg btn-block" role="button" aria-pressed="true">Sign Up with Google</a>
-                
+                <a href="{% provider_login_url 'google' %}" class="btn btn btn-danger btn-lg btn-block" role="button"
+                    aria-pressed="true">Sign Up with Google</a>
             </form>
         </div>
     </div>

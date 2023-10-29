@@ -14,37 +14,38 @@
         </thead>
         <tbody>
             {% for delivery in deliveries %}
-                <tr>
-                    <td>
-                        <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#delivery{{ delivery.id }}" aria-expanded="false">
-                            {{ delivery.name }}
-                        </button>
-                        <div id="delivery{{ delivery.id }}" class="collapse">
-                            <p><strong>User:</strong> {{ delivery.user }}</p>
-                            <p><strong>Phone Number:</strong> {{ delivery.phone_number }}</p>
-                            <p><strong>Address:</strong> {{ delivery.address }}</p>
-                            <p><strong>City:</strong> {{ delivery.city }}</p>
-                            <p><strong>Delivery Date:</strong> {{ delivery.booking_date|date }}</p>
-                            {% for meal in delivery.meals_desired.all %}
-                            <p><strong>Meal Desired:</strong>{{ meal.name }}</p>
-                            {% endfor %}
-                            <p><strong>Additional Information:</strong> {{ delivery.additional_information }}</p>
-                        </div>
-                    </td>
-                    <td>
-                        
-                        <a class="btn btn-danger delete-delivery" href="#" data-bs-toggle="modal" data-bs-target="#confirmDeleteModal" data-delivery-id="{{ delivery.id }}" data-delete-url="{% url 'delete_delivery' delivery.id %}">Cancel Delivery</a>
-                        <a class="btn btn-primary" href="{% url 'edit_delivery' delivery.id %}">Edit Delivery</a>
-                    </td>
-                </tr>
+            <tr>
+                <td>
+                    <button class="btn btn-link" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#delivery{{ delivery.id }}" aria-expanded="false">
+                        {{ delivery.name }}
+                    </button>
+                    <div id="delivery{{ delivery.id }}" class="collapse">
+                        <p><strong>User:</strong> {{ delivery.user }}</p>
+                        <p><strong>Phone Number:</strong> {{ delivery.phone_number }}</p>
+                        <p><strong>Address:</strong> {{ delivery.address }}</p>
+                        <p><strong>City:</strong> {{ delivery.city }}</p>
+                        <p><strong>Delivery Date:</strong> {{ delivery.booking_date|date }}</p>
+                        {% for meal in delivery.meals_desired.all %}
+                        <p><strong>Meal Desired:</strong>{{ meal.name }}</p>
+                        {% endfor %}
+                        <p><strong>Additional Information:</strong> {{ delivery.additional_information }}</p>
+                    </div>
+                </td>
+                <td>
+                    <a class="btn btn-danger delete-delivery" href="#" data-bs-toggle="modal"
+                        data-bs-target="#confirmDeleteModal" data-delivery-id="{{ delivery.id }}"
+                        data-delete-url="{% url 'delete_delivery' delivery.id %}">Cancel Delivery</a>
+                    <a class="btn btn-primary" href="{% url 'edit_delivery' delivery.id %}">Edit Delivery</a>
+                </td>
+            </tr>
             {% empty %}
-                <tr>
-                    <td colspan="2">You have no Burger Joint Deliveries to Show</td>
-                </tr>
+            <tr>
+                <td colspan="2">You have no Burger Joint Deliveries to Show</td>
+            </tr>
             {% endfor %}
         </tbody>
     </table>
-
     <a class="btn btn-primary" href="/create_delivery">Create An Order</a>
 </div>
 

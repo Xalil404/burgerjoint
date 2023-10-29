@@ -14,31 +14,34 @@
         </thead>
         <tbody>
             {% for booking in bookings %}
-                <tr>
-                    <td>
-                        <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#booking{{ booking.id }}" aria-expanded="false">
-                            {{ booking.name }}
-                        </button>
-                        <div id="booking{{ booking.id }}" class="collapse">
-                            <p><strong>User:</strong> {{ booking.user }}</p>
-                            <p><strong>Phone Number:</strong> {{ booking.phone_number }}</p>
-                            <p><strong>Email:</strong> {{ booking.email }}</p>
-                            <p><strong>Number of People:</strong> {{ booking.number_of_people }}</p>
-                            <p><strong>Booking Date:</strong> {{ booking.booking_date|date }}</p>
-                            <p><strong>Booking Time:</strong> {{ booking.booking_time }}</p>
-                            <p><strong>Meal Desired:</strong> {{ booking.get_meals_desired_display }}</p>
-                        </div>
-                    </td>
-                    <td>
-                        
-                        <a class="btn btn-danger delete-booking" href="#" data-bs-toggle="modal" data-bs-target="#confirmDeleteModal" data-booking-id="{{ booking.id }}" data-delete-url="{% url 'delete_booking' booking.id %}">Cancel Booking</a>
-                        <a class="btn btn-primary" href="{% url 'edit_booking' booking.id %}">Edit Booking</a>
-                    </td>
-                </tr>
+            <tr>
+                <td>
+                    <button class="btn btn-link" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#booking{{ booking.id }}" aria-expanded="false">
+                        {{ booking.name }}
+                    </button>
+                    <div id="booking{{ booking.id }}" class="collapse">
+                        <p><strong>User:</strong> {{ booking.user }}</p>
+                        <p><strong>Phone Number:</strong> {{ booking.phone_number }}</p>
+                        <p><strong>Email:</strong> {{ booking.email }}</p>
+                        <p><strong>Number of People:</strong> {{ booking.number_of_people }}</p>
+                        <p><strong>Booking Date:</strong> {{ booking.booking_date|date }}</p>
+                        <p><strong>Booking Time:</strong> {{ booking.booking_time }}</p>
+                        <p><strong>Meal Desired:</strong> {{ booking.get_meals_desired_display }}</p>
+                    </div>
+                </td>
+                <td>
+
+                    <a class="btn btn-danger delete-booking" href="#" data-bs-toggle="modal"
+                        data-bs-target="#confirmDeleteModal" data-booking-id="{{ booking.id }}"
+                        data-delete-url="{% url 'delete_booking' booking.id %}">Cancel Booking</a>
+                    <a class="btn btn-primary" href="{% url 'edit_booking' booking.id %}">Edit Booking</a>
+                </td>
+            </tr>
             {% empty %}
-                <tr>
-                    <td colspan="2">You have no Burger Joint Bookings to Show</td>
-                </tr>
+            <tr>
+                <td colspan="2">You have no Burger Joint Bookings to Show</td>
+            </tr>
             {% endfor %}
         </tbody>
     </table>

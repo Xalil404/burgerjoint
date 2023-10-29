@@ -55,15 +55,19 @@
 <!--Jumbotron To Book-->
 <div class="container my-5">
     <div class="position-relative p-1 text-center text-muted bg-warning border border-dashed rounded-5">
-      <svg class="bi mt-5 mb-3" width="48" height="48"><use xlink:href="#check2-circle"/></svg>
-      
-      <h1 class="text-body-emphasis">!!! WARNING !!!</h1>
-      <h4 class="col-lg-6 mx-auto mb-4 white-text">
-        The Burger Joint is one of the hottest burger joints in town which means our indoor seating is at full capacity most of the time.  To gurantee yourself a table during a visit, please reserve your table in advance.
-      </h4>
-      <button class="btn btn-primary px-5 mb-5" type="button" onclick="window.location.href='booktable';">
-        Book Table
-      </button>
+        <svg class="bi mt-5 mb-3" width="48" height="48">
+            <use xlink:href="#check2-circle" />
+        </svg>
+
+        <h1 class="text-body-emphasis">!!! WARNING !!!</h1>
+        <h4 class="col-lg-6 mx-auto mb-4 white-text">
+            The Burger Joint is one of the hottest burger joints in town which means our indoor seating is at full
+            capacity most of the time. To gurantee yourself a table during a visit, please reserve your table in
+            advance.
+        </h4>
+        <button class="btn btn-primary px-5 mb-5" type="button" onclick="window.location.href='booktable';">
+            Book Table
+        </button>
     </div>
 </div>
 
@@ -71,26 +75,27 @@
 <div class="container" id="menu">
     <h1 id="menu-title">Burger Joint Menu</h1>
 
-<div class="btn-group d-none d-md-block">
-    <button class="btn btn-primary filter" data-filter="all">All Items</button>
-    <button class="btn btn-primary filter" data-filter="burgers">Burgers</button>
-    <button class="btn btn-primary filter" data-filter="sandwiches">Sandwiches</button>
-    <button class="btn btn-primary filter" data-filter="vegan">Vegan</button>
-    <button class="btn btn-primary filter" data-filter="sides">Sides</button>
-</div>
-
-<div class="dropdown d-md-none">
-    <button class="btn btn-primary dropdown-toggle" type="button" id="filterDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Filter Items
-    </button>
-    <div class="dropdown-menu" aria-labelledby="filterDropdown">
-        <a class="dropdown-item filter" data-filter="all">All Items</a>
-        <a class="dropdown-item filter" data-filter="burgers">Burgers</a>
-        <a class="dropdown-item filter" data-filter="sandwiches">Sandwiches</a>
-        <a class="dropdown-item filter" data-filter="vegan">Vegan</a>
-        <a class="dropdown-item filter" data-filter="sides">Sides</a>
+    <div class="btn-group d-none d-md-block">
+        <button class="btn btn-primary filter" data-filter="all">All Items</button>
+        <button class="btn btn-primary filter" data-filter="burgers">Burgers</button>
+        <button class="btn btn-primary filter" data-filter="sandwiches">Sandwiches</button>
+        <button class="btn btn-primary filter" data-filter="vegan">Vegan</button>
+        <button class="btn btn-primary filter" data-filter="sides">Sides</button>
     </div>
-</div>
+
+    <div class="dropdown d-md-none">
+        <button class="btn btn-primary dropdown-toggle" type="button" id="filterDropdown" data-bs-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Filter Items
+        </button>
+        <div class="dropdown-menu" aria-labelledby="filterDropdown">
+            <a class="dropdown-item filter" data-filter="all">All Items</a>
+            <a class="dropdown-item filter" data-filter="burgers">Burgers</a>
+            <a class="dropdown-item filter" data-filter="sandwiches">Sandwiches</a>
+            <a class="dropdown-item filter" data-filter="vegan">Vegan</a>
+            <a class="dropdown-item filter" data-filter="sides">Sides</a>
+        </div>
+    </div>
 
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div class="col menu-item all burgers">
@@ -334,18 +339,16 @@
     </div>
 </div>
 <!--Table Booking CTA-->
-
-    <div class="p-5 mb-4 bg-body-tertiary rounded-3 mx-4 mx-md-5 banner">
-        <div class="container-fluid py-5">
-            <h1 class="display-5 fw-bold">Want To Skip The Line? </h1>
-            <p class="col-md-8 fs-4">The Burger Joint is one of the hottest burger joints in town which means our indoor
-                seating is contantly packed. If you don't want to do take out and make sure you can eat indoors, we
-                highly recommend you book a table in advance!
-            </p>
-            <button class="btn btn-primary btn-lg" type="button" onclick="window.location.href='booktable';">Book Table</button>
-        </div>
+<div class="p-5 mb-4 bg-body-tertiary rounded-3 mx-4 mx-md-5 banner">
+    <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">Want To Skip The Line? </h1>
+        <p class="col-md-8 fs-4">The Burger Joint is one of the hottest burger joints in town which means our indoor
+            seating is contantly packed. If you don't want to do take out and make sure you can eat indoors, we
+            highly recommend you book a table in advance!
+        </p>
+        <button class="btn btn-primary btn-lg" type="button" onclick="window.location.href='booktable';">Book
+            Table</button>
     </div>
-
-
+</div>
 
 {%endblock%}

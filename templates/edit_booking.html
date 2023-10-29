@@ -10,53 +10,53 @@
         <h2 class="text-white">Edit Booking</h2>
         <form method="POST">
             {% csrf_token %}
-            
+
             <div class="mb-3 text-white form-group row">
                 <label for="{{ form.name.id }}" class="col-sm-5 col-form-label">Name:</label>
                 <div class="col-sm-1">
-                {{ form.name }}
+                    {{ form.name }}
                 </div>
             </div>
 
             <div class="mb-3 text-white form-group row">
                 <label for="{{ form.phone_number.id }}" class="col-sm-5 col-form-label">Phone Number:</label>
                 <div class="col-sm-1">
-                {{ form.phone_number }}
+                    {{ form.phone_number }}
                 </div>
             </div>
 
             <div class="mb-3 text-white form-group row">
                 <label for="{{ form.email.id }}" class="col-sm-5 col-form-label">Email:</label>
                 <div class="col-sm-1">
-                {{ form.email }}
+                    {{ form.email }}
                 </div>
             </div>
 
             <div class="mb-3 text-white form-group row">
                 <label for="{{ form.number_of_people.id }}" class="col-sm-5 col-form-label">Number of People:</label>
                 <div class="col-sm-1">
-                {{ form.number_of_people }}
+                    {{ form.number_of_people }}
                 </div>
             </div>
 
             <div class="mb-3 text-white form-group row">
                 <label for="{{ form.booking_date.id }}" class="col-sm-5 col-form-label">Booking Date:</label>
                 <div class="col-sm-1">
-                {{ form.booking_date }}
+                    {{ form.booking_date }}
                 </div>
             </div>
 
             <div class="mb-3 text-white form-group row">
                 <label for="{{ form.booking_time.id }}" class="col-sm-5 col-form-label">Booking Time:</label>
                 <div class="col-sm-1">
-                {{ form.booking_time }}
+                    {{ form.booking_time }}
                 </div>
             </div>
 
             <div class="mb-3 text-white form-group row">
                 <label for="{{ form.meals_desired.id }}" class="col-sm-5 col-form-label">Meal Desired:</label>
                 <div class="col-sm-1">
-                {{ form.meals_desired }}
+                    {{ form.meals_desired }}
                 </div>
             </div>
 
