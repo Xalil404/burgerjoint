@@ -5,7 +5,11 @@ Link to live site [here](https://burger-joint-286ef76e4359.herokuapp.com/).
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698498511/Project%204/Screenshot_2023-10-28_at_2.07.02_PM_suhxrn.png" width="auto" height="auto" alt="image of the Burger Joint website home page on all devices"></p>
 
 ## Business Requirements
-Prior to initiating the project's development, user stories were created to give a high level understanding of what the platform's functional requirements will be. The user stories were then placed into a kanban board in order to track the progress of the platform's development.  The Agile development kanban board can be found [here](https://github.com/users/Xalil404/projects/3/views/1).
+Prior to initiating the project's development, user stories were created to give a high level understanding of what the platform's functional requirements will be. 
+
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698577639/Project%204/Screenshot_2023-10-29_at_11.02.11_AM_yo6fj2.png" width="auto" height="auto" alt="image of the burger joint userstories">
+
+The user stories were then placed into a kanban board in order to track the progress of the platform's development.  The Agile development kanban board can be found [here](https://github.com/users/Xalil404/projects/3/views/1).
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698498639/Project%204/Screenshot_2023-10-28_at_2.10.19_PM_r5wtpl.png" width="auto" height="auto" alt="image of the burger joint project agile kanban board">
 
@@ -62,13 +66,13 @@ The Burger website consists of the following pages and features:
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698497117/Project%204/Screenshot_2023-10-28_at_1.44.58_PM_b725no.png" width="auto" height="auto" alt="pop-up to delete booking or delivery"> 
 
-* Account Registration Page
+* Account Registration Page via username or google account
 
-<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698502374/Project%204/Screenshot_2023-10-28_at_3.12.31_PM_xv3rdh.png" width="auto" height="auto" alt="account registration page"> 
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698577815/Project%204/Screenshot_2023-10-29_at_11.09.33_AM_jwufbd.png" width="auto" height="auto" alt="account registration page"> 
 
-* Account Log-in Page
+* Account Log-in Page via username or google account
 
-<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698495179/Project%204/Screenshot_2023-10-28_at_1.12.41_PM_a2poq3.png" width="auto" height="auto" alt="account login page"> 
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698577855/Project%204/Screenshot_2023-10-29_at_11.10.36_AM_k5yv8v.png" width="auto" height="auto" alt="account login page"> 
 
 * Account Log-out Page
 
@@ -115,6 +119,12 @@ Deployment of the Burger Joint application was done from the very start of the p
 * [Bootstrap](https://getbootstrap.com/) for HTML and CSS code snippets.
 
 * [Task Manager](https://zadachamanager-d3722b3cb1b7.herokuapp.com/), [To Do App](https://todoprilozheniya-b8e10f9f2dc1.herokuapp.com/), [Code Star Blog](https://helloblog-eb1bdbb756c3.herokuapp.com/) walk-through projects for guidance during development. 
+
+* Google API for account sign up and registration  with a google account.
+
+* This [tutorial](https://www.youtube.com/watch?v=56w8p0goIfs) on how to set up Google Authentication.
+
+* This [StackOverflow](https://stackoverflow.com/questions/70873098/login-with-google-redairecting-on-conformation-page-to-continue-django) post on how to exclude the sign up/sign in with google intermeidiary [step/template](https://gyazo.com/afbbdbf822579d00e0b7ad4cbb5fa121). 
 
 * [The Habit Burger Grill](https://www.habitburger.com/) for menu items. 
 
