@@ -21,5 +21,3 @@ $(document).ready(function () {
         deleteButton.attr('href', deleteUrl); 
     });
 });
-
-
