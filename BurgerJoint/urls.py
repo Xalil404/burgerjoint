@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
-from Booking_App.views import get_home_page, addtable, edit_booking, delete_booking  
+from Booking_App.views import get_home_page, addtable, edit_booking, delete_booking
 from Booking_App.views import booktable, view_delivery, create_delivery, edit_delivery, delete_delivery
 
 urlpatterns = [
@@ -34,7 +34,6 @@ urlpatterns = [
     path('delete_delivery/<delivery_id>', delete_delivery, name='delete_delivery'),
 ]
 
-#Code to serve static files during development
+# Code to serve static files during development
 if settings.DEBUG:
     urlpatterns += static(settings.STATIC_URL, document_root=settings.STATICFILES_DIRS[0])
-
