@@ -6,6 +6,7 @@ from django.utils import timezone
 def get_current_date():
     return timezone.now()
 
+
 class Booking(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, default=1)
     name = models.CharField(max_length=50, null=False, blank=False)
@@ -15,12 +16,12 @@ class Booking(models.Model):
     booking_date = models.DateTimeField(
         null=False,
         blank=False,
-        default=get_current_date  
+        default=get_current_date
     )
     booking_time = models.TimeField(
         null=False,
         blank=False,
-        default=timezone.now 
+        default=timezone.now
     )
     meals_desired = models.CharField(
         max_length=80,
@@ -78,7 +79,6 @@ class Meal(models.Model):
         blank=False,
         default='CHARBURGER'
     )
-    
 
     def __str__(self):
         return self.name
@@ -93,12 +93,10 @@ class Delivery(models.Model):
     booking_date = models.DateTimeField(
         null=False,
         blank=False,
-        default=get_current_date  
+        default=get_current_date
     )
     meals_desired = models.ManyToManyField(Meal, blank=True)
     additional_information = models.TextField(blank=True, null=True)
 
     def __str__(self):
         return self.name
-    
-

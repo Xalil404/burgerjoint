@@ -2,6 +2,7 @@ from django import forms
 from .models import Booking, Delivery
 from django.contrib import admin
 
+
 class BookingForm(forms.ModelForm):
     class Meta:
         model = Booking

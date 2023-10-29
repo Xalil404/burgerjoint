@@ -5,18 +5,18 @@ from .models import Booking, Delivery, Meal
 
 class MealsDesiredInlineFormset(forms.BaseInlineFormSet):
     model = Delivery.meals_desired.through
-    extra = 1  
+    extra = 1
 
 
 class MealsDesiredInline(admin.TabularInline):
     model = Delivery.meals_desired.through
-    extra = 1  
+    extra = 1
     formset = MealsDesiredInlineFormset
-    
+
 
 class DeliveryAdmin(admin.ModelAdmin):
     inlines = [MealsDesiredInline]
-    
+
 
 # Register your models here.
 admin.site.register(Booking)
