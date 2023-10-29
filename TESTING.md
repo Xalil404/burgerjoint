@@ -66,7 +66,7 @@ Testing results of functionalities not considered to be feature or user story.
 ## Code Validators 
 | Instrument | URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| W3C HTML | [W3C](https://validator.w3.org/) | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698592093/Project%204/Screenshot_2023-10-29_at_3.02.41_PM_agidgc.png) | Pass: No Errors; errors related to Django templating were ignored |
+| W3C HTML | [W3C](https://validator.w3.org/nu/?doc=) | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698592093/Project%204/Screenshot_2023-10-29_at_3.02.41_PM_agidgc.png) | Pass: No Errors; errors related to Django templating were ignored |
 | W3C CSS | [W3C CSS](https://jigsaw.w3.org/css-validator/) | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698584889/Project%204/Screenshot_2023-10-29_at_1.07.48_PM_norebb.png) | Pass: No Errors |
 | JSHint | [JSHint](https://jshint.com/) | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698585177/Project%204/Screenshot_2023-10-29_at_1.12.39_PM_onx9pt.png) | Pass: No Errors |
 | Pep8 | [Pep8](https://pep8ci.herokuapp.com/) | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698587284/Project%204/Screenshot_2023-10-29_at_1.47.39_PM_scvwco.png) | Pass: No Errors; E501 line too long errors were ignored |
