@@ -73,5 +73,5 @@ Testing results of functionalities not considered to be feature or user story.
 
 ## Lighthouse Report
 | Instrument | Screenshot | Notes |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | Dev Tools | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698659514/Project%204/Screenshot_2023-10-30_at_9.51.36_AM_bjtjag.png) | N/A |
