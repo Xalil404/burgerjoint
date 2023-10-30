@@ -218,5 +218,7 @@ body {
     color: white; 
 }
 
-
+.bd-placeholder-img {
+    width: 100%;
+}
 
