@@ -1,11 +1,12 @@
 # Burger Joint 
-The Burger Joint corporate website allows clients of the Burger Joint restaurant to book tables and meals in advance as well as as edit, delete or update their scheduled dine-in bookings should their plans change.  A prerequisite to making a table booking at the Burger Joint restaurant, the client must create or have a registered user account with the Burger Joint restaurant, otherwise, they will not be able to complete a table booking at the restaurant.   
+The Burger Joint corporate website allows clients of the Burger Joint restaurant to book table reservations and order food delivery in advance as well as as edit, delete or update their scheduled dine-in bookings or food deliveries should their plans change.  A prerequisite to making a table booking or food delivery from the Burger Joint restaurant, the client must create or have a registered user account with the Burger Joint restaurant, otherwise, they will not be able to complete a table booking or order a food delivery from the restaurant.   
+
 Link to live site [here](https://burger-joint-286ef76e4359.herokuapp.com/).
 <p align="center">
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698498511/Project%204/Screenshot_2023-10-28_at_2.07.02_PM_suhxrn.png" width="auto" height="auto" alt="image of the Burger Joint website home page on all devices"></p>
 
 ## Business Requirements
-Prior to initiating the project's development, user stories were created to give a high level understanding of what the platform's functional requirements will be. 
+Prior to initiating the project's development, user stories were created to give a high level understanding of what the platform's functional requirements will be and they were assigned labels based on their importance using the MoSCoW prioritization method.   
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698577639/Project%204/Screenshot_2023-10-29_at_11.02.11_AM_yo6fj2.png" width="auto" height="auto" alt="image of the burger joint userstories">
 
@@ -46,11 +47,11 @@ The Burger website consists of the following pages and features:
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698495450/Project%204/Screenshot_2023-10-28_at_1.17.11_PM_coc7bh.png" width="auto" height="auto" alt="view bookings page"> 
 
-* Edit or Update Bookings Page
+* Edit or Update Booking Page
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698495521/Project%204/Screenshot_2023-10-28_at_1.18.22_PM_fdrent.png" width="auto" height="auto" alt="Edit bookings page"> 
 
-* Create Food delivery page 
+* Create Food delivery order page 
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698496841/Project%204/Screenshot_2023-10-28_at_1.40.22_PM_w763aj.png" width="auto" height="auto" alt="create food delivery page"> 
 
@@ -74,7 +75,7 @@ The Burger website consists of the following pages and features:
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698577855/Project%204/Screenshot_2023-10-29_at_11.10.36_AM_k5yv8v.png" width="auto" height="auto" alt="account login page"> 
 
-* Account Log-out Page
+* Account Log-out confirmation Page
 
 <img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698495701/Project%204/Screenshot_2023-10-28_at_1.21.22_PM_hptvnc.png" width="auto" height="auto" alt="account logout page"> 
 
@@ -93,7 +94,7 @@ Deployment of the Burger Joint application was done from the very start of the p
 
 * I completed migration of the database structure to the newly connected ElephantSQL database.
 
-* Once the database had been migrated to ElephantSQL and a Profile for Heroku was created, in the application's Heroku interface I added a few config vars in the project's settings.
+* Once the database had been migrated to ElephantSQL and a Procfile for Heroku was created, in the application's Heroku interface I added a few config vars in the project's settings.
 
 * Finally in the app's Heroku interface in the deploy section, I connected the project's Github repository and initiated manual deployment.
 
@@ -118,15 +119,15 @@ Deployment of the Burger Joint application was done from the very start of the p
 
 * [Bootstrap](https://getbootstrap.com/) for HTML and CSS code snippets.
 
-* [Task Manager](https://zadachamanager-d3722b3cb1b7.herokuapp.com/), [To Do App](https://todoprilozheniya-b8e10f9f2dc1.herokuapp.com/), [Code Star Blog](https://helloblog-eb1bdbb756c3.herokuapp.com/) walk-through projects for guidance during development. 
+* The Code Academy [Task Manager](https://zadachamanager-d3722b3cb1b7.herokuapp.com/), [To Do App](https://todoprilozheniya-b8e10f9f2dc1.herokuapp.com/), [Code Star Blog](https://helloblog-eb1bdbb756c3.herokuapp.com/) walk-through projects for guidance during development. 
 
-* Google API for account sign up and registration  with a google account.
+* Google API for account sign up and registration  with a google mail account.
 
 * This [tutorial](https://www.youtube.com/watch?v=56w8p0goIfs) on how to set up Google Authentication.
 
 * This [StackOverflow](https://stackoverflow.com/questions/70873098/login-with-google-redairecting-on-conformation-page-to-continue-django) post on how to exclude the sign up/sign in with google intermeidiary [step/template](https://gyazo.com/afbbdbf822579d00e0b7ad4cbb5fa121). 
 
-* [The Habit Burger Grill](https://www.habitburger.com/) for menu items. 
+* [The Habit Burger Grill](https://www.habitburger.com/) for menu food items and menu images. 
 
 * [Cloudinary](https://cloudinary.com/) for image hosting. 
 

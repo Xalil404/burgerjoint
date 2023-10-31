@@ -2,7 +2,7 @@
 This document is a summary of the manual testing which was done for the Burger Joint web application. 
 
 ## Browser Compatibility
-The platform was tested on the following browsers: Chrome, Safar & Firefox.
+The platform was tested on the following browsers: Chrome, Safari & Firefox.
 
 | Browser | Screenshot | Notes |
 | --- | --- | --- |
@@ -11,7 +11,7 @@ The platform was tested on the following browsers: Chrome, Safar & Firefox.
 | Safari | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698493456/Project%204/Screenshot_2023-10-28_at_12.42.23_PM_mlbrav.png) | Works as expected |
 
 ## Responsiveness
-The platform was tested for responsiveness on the following devices: 
+The platform was tested for responsiveness on the following devices through Chrome's developer tools: 
 
 | Device | Screenshot | Notes |
 | --- | --- | --- |
@@ -31,7 +31,7 @@ Testing results of functionalities not considered to be feature or user story.
 | --- | --- | --- | --- |
 | Web Navigation | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698494305/Project%204/Screenshot_2023-10-28_at_12.58.06_PM_feqj6p.png) | Should be visible in the middle of the header | Works as expected |
 | Mobile Navigation | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698494361/Project%204/Screenshot_2023-10-28_at_12.59.03_PM_yquqqd.png) | Should be visible in a hamburger dropdown menu in the header | Works as expected |
-| Landing Page Carousel | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698494418/Project%204/Screenshot_2023-10-28_at_12.59.51_PM_otezyz.png) | The carousel should rotate on its own, have clickable indicators and buttons to go through the slides. | Works as expected |
+| Landing Page Carousel | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698494418/Project%204/Screenshot_2023-10-28_at_12.59.51_PM_otezyz.png) | The carousel should have clickable indicators and buttons to go through the slides. | Works as expected |
 | Landing Page Jumbotron - under the carousel | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698494472/Project%204/Screenshot_2023-10-28_at_1.00.51_PM_zwpnvf.png) | Clicking on the Jumbotron CTA buton should take the user to the booking page if they are logged in or the sign-in page if they are logged out. | Works as expected |
 | Landing Page Jumbotron above the footer | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698494529/Project%204/Screenshot_2023-10-28_at_1.01.46_PM_wwrsa1.png) | Clicking on the Jumbotron CTA buton should take the user to the booking page if they are logged in or the sign-in page if they are logged out. | Works as expected |
 | Landing Page Menu filter | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698494616/Project%204/Screenshot_2023-10-28_at_1.03.13_PM_l741zq.png) | Clicking on the different meal categories should show the relevant meals. | Works as expected |
@@ -41,7 +41,7 @@ Testing results of functionalities not considered to be feature or user story.
 | Logged-in Notification | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698584530/Project%204/Screenshot_2023-10-29_at_12.57.29_PM_lofkt0.png) | When a user is logged in they should see a notification indicating they are logged in. | Works as expected |
 | Logged-out Status | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698494305/Project%204/Screenshot_2023-10-28_at_12.58.06_PM_feqj6p.png) | When a user is logged out they should see the log-in and register buttons in the navigation and no longer see the log-out button. | Works as expected |
 | Logged-out Notification | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698584508/Project%204/Screenshot_2023-10-29_at_12.57.06_PM_yqlfna.png) | When a user is logged out they should see a notification indicating they are logged out. | Works as expected |
-| Website Logo & Home Page | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698494873/Project%204/Screenshot_2023-10-28_at_1.07.36_PM_pdtizy.png) | Clicking on the website logo and home page button in the header should take the user to the home page. | Works as expected |
+| Website Logo & Home Page Button | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698494873/Project%204/Screenshot_2023-10-28_at_1.07.36_PM_pdtizy.png) | Clicking on the website logo and home page button in the header should take the user to the home page. | Works as expected |
 
 ## Features & User Story Testing
 
@@ -49,9 +49,9 @@ Testing results of functionalities not considered to be feature or user story.
 | --- | --- | --- |
 | As an administrator and owner of the restaurant, I need to access an interface where I can see the list of total bookings/deliveries and the bookings' and deliveries' details. | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698495005/Project%204/Screenshot_2023-10-28_at_1.09.47_PM_i63s4z.png) | Works as expected |
 | As a user, I want to view the landing page of a restaurant which contains its menu offerings.  | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698494616/Project%204/Screenshot_2023-10-28_at_1.03.13_PM_l741zq.png) | Works as expected |
-| As a user, I want to register an account with the restaurant either through a username or google account in order to book a table.  | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698577815/Project%204/Screenshot_2023-10-29_at_11.09.33_AM_jwufbd.png) | Works as expected |
+| As a user, I want to register an account with the restaurant either through a username or google account in order to book a table or order delivery.  | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698577815/Project%204/Screenshot_2023-10-29_at_11.09.33_AM_jwufbd.png) | Works as expected |
 | As a user, I want to log-into my account with the restaurant either through username and password or via Google account authentication in order to CRUD bookings and deliveries.  | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698577855/Project%204/Screenshot_2023-10-29_at_11.10.36_AM_k5yv8v.png) | Works as expected |
-| As a user, I want to be able to book a table at the restaurant which includes my details such as: name, phone number, email, number of guests, date and desired meals.  | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698495264/Project%204/Screenshot_2023-10-28_at_1.14.01_PM_faby1v.png) | Works as expected |
+| As a user, I want to be able to book a table at the restaurant which includes my details such as: name, phone number, email, number of guests, date and desired meal.  | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698495264/Project%204/Screenshot_2023-10-28_at_1.14.01_PM_faby1v.png) | Works as expected |
 | As a user, I want to view the list of bookings and details of my booking with the restaurant. | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698495450/Project%204/Screenshot_2023-10-28_at_1.17.11_PM_coc7bh.png) | Works as expected |
 | As a user, I want to be able to edit and update my previous booking details.  | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698495521/Project%204/Screenshot_2023-10-28_at_1.18.22_PM_fdrent.png) | Works as expected |
 | As a user, I want to be able to delete my scheduled restaurant booking. | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698495586/Project%204/Screenshot_2023-10-28_at_1.19.28_PM_clmlvk.png) | Works as expected |
@@ -74,4 +74,4 @@ Testing results of functionalities not considered to be feature or user story.
 ## Lighthouse Report
 | Instrument | Screenshot | Notes |
 | --- | --- | --- |
-| Dev Tools | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698659514/Project%204/Screenshot_2023-10-30_at_9.51.36_AM_bjtjag.png) | N/A |
+| Dev Tools | ![screenshot](https://res.cloudinary.com/dugcwv1mf/image/upload/v1698743380/Project%204/Screenshot_2023-10-31_at_8.58.30_AM_pwiqck.png) | N/A |
