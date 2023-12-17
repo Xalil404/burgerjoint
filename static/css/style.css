@@ -1,3 +1,10 @@
+/*For iphone 5 & Galaxy fold registration page*/
+@media (max-width: 375px) {
+    .footer {
+        margin-top: 250px; 
+    }
+}
+
 html {
     height: 100%;
 }
