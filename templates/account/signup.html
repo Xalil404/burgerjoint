@@ -15,11 +15,61 @@
                 please <a class="link" href="{{ login_url }}">Sign In</a> instead.{% endblocktrans %}</p>
         </div>
     </div>
-    <div class="row mb-5">
-        <div class="col-md-8 mt-3 offset-md-2 text-center">
+
+    <div class="col mb-5">
+        <div class="col-md-8 mt-3 text-center">
+
             <form class="signup" id="signup_form" method="post" action="{% url 'account_signup' %}">
                 {% csrf_token %}
-                {{ form.as_p }}
+
+                <div class="form-group text-center mb-3">
+                    <label for="id_username" class="mx-auto mb-3 text-white">{{ form.username.label }}</label>
+                    <div class="mx-auto">
+                        <div class="form-group">
+                            {{ form.username }} <br>
+                            {% if form.username.errors %}
+                            <span class="text-danger font-weight-bold h5">{{ form.username.errors|join:", " }}</span>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group text-center mb-3">
+                    <label for="id_email" class="mx-auto mb-3 text-white">{{ form.email.label }}</label>
+                    <div class="mx-auto">
+                        <div class="form-group">
+                            {{ form.email }} <br>
+                            {% if form.email.errors %}
+                            <span class="text-danger font-weight-bold h5">{{ form.email.errors|join:", " }}</span>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group text-center mb-3">
+                    <label for="id_password1" class="mx-auto mb-3 text-white">{{ form.password1.label }}</label>
+                    <div class="mx-auto">
+                        <div class="form-group">
+                            {{ form.password1 }} <br>
+                            {% if form.password1.errors %}
+                            <span class="text-danger font-weight-bold h5">{{ form.password1.errors|join:", " }}</span>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group text-center mb-3">
+                    <label for="id_password2" class="mx-auto mb-3 text-white">{{ form.password2.label }}</label>
+                    <div class="mx-auto">
+                        <div class="form-group">
+                            {{ form.password2 }} <br>
+                            {% if form.password2.errors %}
+                            <span class="text-danger font-weight-bold h5">{{ form.password2.errors|join:", " }}</span>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+
                 {% if redirect_field_value %}
                 <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
                 {% endif %}
