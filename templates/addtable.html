@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 
+{% load crispy_forms_tags %}
+
 {% block content %}
 
 <div class="container mt-4 text-center">
@@ -7,61 +9,17 @@
 
     <div class="mb-4">
         <h2 class="text-white">Add a Booking</h2>
-        <form method="POST" action="{% url 'addtable' %}">
-            {% csrf_token %}
-
-            <div class="mb-3 text-white form-group row">
-                <label for="{{ form.name.id }}" class="col-sm-5 col-form-label">Name:</label>
-                <div class="col-sm-1">
-                    {{ form.name }}
+        <div class="row justify-content-center">
+            <form method="POST" action="{% url 'addtable' %}" class="form text-white col-sm-5">
+                {% csrf_token %}
+                {{ form|crispy }}
+                <div class="mb-3 form-group row">
+                    <div class="col-sm-12">
+                        <button type="submit" class="btn btn-primary mt-3">Submit Booking</button>
+                    </div>
                 </div>
-            </div>
-
-            <div class="mb-3 text-white form-group row">
-                <label for="{{ form.phone_number.id }}" class="col-sm-5 col-form-label">Phone Number:</label>
-                <div class="col-sm-1">
-                    {{ form.phone_number }}
-                </div>
-            </div>
-
-            <div class="mb-3 text-white form-group row">
-                <label for="{{ form.email.id }}" class="col-sm-5 col-form-label">Email:</label>
-                <div class="col-sm-1">
-                    {{ form.email }}
-                </div>
-            </div>
-
-            <div class="mb-3 text-white form-group row">
-                <label for="{{ form.number_of_people.id }}" class="col-sm-5 col-form-label">Number of People:</label>
-                <div class="col-sm-1">
-                    {{ form.number_of_people }}
-                </div>
-            </div>
-
-            <div class="mb-3 text-white form-group row">
-                <label for="{{ form.booking_date.id }}" class="col-sm-5 col-form-label">Booking Date:</label>
-                <div class="col-sm-1">
-                    {{ form.booking_date }}
-                </div>
-            </div>
-
-            <div class="mb-3 text-white form-group row">
-                <label for="{{ form.booking_time.id }}" class="col-sm-5 col-form-label">Booking Time:</label>
-                <div class="col-sm-1">
-                    {{ form.booking_time }}
-                </div>
-            </div>
-
-            <div class="mb-3 text-white form-group row">
-                <label for="{{ form.meals_desired.id }}" class="col-sm-5 col-form-label">Meal Desired:</label>
-                <div class="col-sm-1">
-                    {{ form.meals_desired }}
-                </div>
-            </div>
-
-            <button type="submit" class="btn btn-primary">Submit Booking</button>
-
-        </form>
+            </form>
+        </div>
     </div>
 </div>
 

@@ -229,6 +229,10 @@ body {
     width: 100%;
 }
 
+form.form .form-group {
+    margin-bottom: 30px;
+}
+
 @media (min-width: 1200px) {
     .carousel {
         width: 100%;
