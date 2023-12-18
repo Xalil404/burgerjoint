@@ -10,9 +10,9 @@ def get_current_date():
 class Booking(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, default=1)
     name = models.CharField(max_length=50, null=False, blank=False)
-    phone_number = models.CharField(max_length=15, null=False, blank=False, default='085 123 3434')
-    email = models.EmailField(null=False, blank=False, default='myemail@gmail.com')
-    number_of_people = models.IntegerField(null=False, blank=False, default=1)
+    phone_number = models.CharField(max_length=15, null=False, blank=False)
+    email = models.EmailField(null=False, blank=False)
+    number_of_people = models.IntegerField(null=False, blank=False)
     booking_date = models.DateTimeField(
         null=False,
         blank=False,
@@ -87,7 +87,7 @@ class Meal(models.Model):
 class Delivery(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE, default=1)
     name = models.CharField(max_length=50, null=False, blank=False)
-    phone_number = models.CharField(max_length=15, null=False, blank=False, default='085 123 3434')
+    phone_number = models.CharField(max_length=15, null=False, blank=False)
     address = models.TextField(null=False, blank=False)
     city = models.CharField(max_length=50, null=False, blank=False)
     booking_date = models.DateTimeField(
