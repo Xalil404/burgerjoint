@@ -1,71 +1,25 @@
 {% extends "base.html" %}
 
+{% load crispy_forms_tags %}
+
 {% block content %}
 
 <div class="container mt-4 text-center">
     <h1 class="mb-4 text-white">Place A Burger Joint Delivery</h1>
-
     <div class="mb-4">
         <h2 class="text-white">Place Order</h2>
-        <form method="POST" action="{% url 'create_delivery' %}">
-            {% csrf_token %}
-
-            <div class="mb-3 text-white form-group row">
-                <label for="{{ form.name.id }}" class="col-sm-5 col-form-label">Name:</label>
-                <div class="col-sm-1">
-                    {{ form.name }}
+        <div class="row justify-content-center">
+            <form method="POST" action="{% url 'create_delivery' %}" class="form text-white col-sm-5">
+                {% csrf_token %}
+                {{ form|crispy }}
+                <div class="mb-3 form-group row">
+                    <div class="col-sm-12">
+                        <button type="submit" class="btn btn-primary">Place Order</button>
+                    </div>
                 </div>
-            </div>
-
-            <div class="mb-3 text-white form-group row">
-                <label for="{{ form.phone_number.id }}" class="col-sm-5 col-form-label">Phone Number:</label>
-                <div class="col-sm-1">
-                    {{ form.phone_number }}
-                </div>
-            </div>
-
-            <div class="mb-3 text-white form-group row">
-                <label for="{{ form.address.id }}" class="col-sm-5 col-form-label">Address:</label>
-                <div class="col-sm-1">
-                    {{ form.address }}
-                </div>
-            </div>
-
-            <div class="mb-3 text-white form-group row">
-                <label for="id_city" class="col-sm-5 col-form-label">City:</label>
-                <div class="col-sm-1">
-                    {{ form.city }}
-                </div>
-            </div>
-
-            <div class="mb-3 text-white form-group row">
-                <label for="{{ form.booking_date.id }}" class="col-sm-5 col-form-label">Delivery Date:</label>
-                <div class="col-sm-1">
-                    {{ form.booking_date }}
-                </div>
-            </div>
-
-            <div class="mb-3 text-white form-group row">
-                <label for="{{ form.meals_desired.id }}" class="col-sm-5 col-form-label">Meal Desired: <br>Press Control
-                    on Windows or <br>Command on Mac to select multiple items.</label>
-                <div class="col-sm-1">
-                    {{ form.meals_desired }}
-                </div>
-            </div>
-
-            <div class="mb-3 text-white form-group row">
-                <label for="{{ form.additional_information.id }}" class="col-sm-5 col-form-label">Additional
-                    Information:</label>
-                <div class="col-sm-1">
-                    {{ form.additional_information }}
-                </div>
-            </div>
-
-            <button type="submit" class="btn btn-primary">Place Order</button>
-
-        </form>
+            </form>
+        </div>
     </div>
-
 </div>
 
 
