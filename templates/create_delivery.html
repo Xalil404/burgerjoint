@@ -9,7 +9,7 @@
     <div class="mb-4">
         <h2 class="text-white">Place Order</h2>
         <div class="row justify-content-center">
-            <form method="POST" action="{% url 'create_delivery' %}" class="form text-white col-sm-5">
+            <form method="POST" action="{% url 'create_delivery' %}" class="form text-white col-sm-5" id="booking-form" onsubmit="return validateForm()">
                 {% csrf_token %}
                 {{ form|crispy }}
                 <div class="mb-3 form-group row">

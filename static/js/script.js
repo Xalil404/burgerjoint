@@ -21,3 +21,30 @@ $(document).ready(function () {
         deleteButton.attr('href', deleteUrl); 
     });
 });
+
+//Function to validate form fields data input
+function validateForm() {
+    var name = document.getElementById('id_name').value;
+    var phoneNumber = document.getElementById('id_phone_number').value;
+    var bookingDate = document.getElementById('id_booking_date').value;
+
+    if (!name.replace(/\s/g, '').match(/^[a-zA-Z]+$/)) {
+        alert('Name must contain only alphabetical characters.');
+        return false;
+    }
+
+    if (!phoneNumber.replace(/\s|-/g, '').match(/^\d+$/)) {
+        alert('Phone number must contain only numerical characters.');
+        return false;
+    }
+
+    var today = new Date();
+    var selectedDate = new Date(bookingDate);
+
+    if (selectedDate < today) {
+        alert('Booking date cannot be in the past.');
+        return false;
+    }
+
+    return true;
+};

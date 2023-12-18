@@ -30,3 +30,6 @@ class DeliveryForm(forms.ModelForm):
             'booking_date': forms.DateInput(attrs={'type': 'date'}),
             'user': forms.HiddenInput(),
         }
+        labels = {
+            'meals_desired': 'Meals Desired (Press Control on Windows or Command on Mac to select multiple items)',
+        }
