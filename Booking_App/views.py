@@ -21,6 +21,7 @@ def booktable(request):
     return render(request, 'booktable.html', {'bookings': bookings})
 
 
+@login_required
 def addtable(request):
     if request.method == 'POST':
         form = BookingForm(request.POST)
@@ -36,6 +37,7 @@ def addtable(request):
     return render(request, 'addtable.html', context)
 
 
+@login_required
 def edit_booking(request, booking_id):
     item = get_object_or_404(Booking, id=booking_id)
     if request.method == 'POST':
@@ -66,6 +68,7 @@ def view_delivery(request):
     return render(request, 'view_delivery.html', context)
 
 
+@login_required
 def create_delivery(request):
     if request.method == 'POST':
         form = DeliveryForm(request.POST)
@@ -81,6 +84,7 @@ def create_delivery(request):
     return render(request, 'create_delivery.html', context)
 
 
+@login_required
 def edit_delivery(request, delivery_id):
     item = get_object_or_404(Delivery, id=delivery_id)
     if request.method == 'POST':
