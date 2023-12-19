@@ -95,7 +95,7 @@ class Delivery(models.Model):
         blank=False,
         default=get_current_date
     )
-    meals_desired = models.ManyToManyField(Meal, blank=True)
+    meals_desired = models.ManyToManyField(Meal, blank=False)
     additional_information = models.TextField(blank=True, null=True)
 
     def __str__(self):
