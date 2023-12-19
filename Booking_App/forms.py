@@ -13,6 +13,7 @@ class BookingForm(forms.ModelForm):
             'email': forms.EmailInput(attrs={'placeholder': 'Enter your email'}),
             'number_of_people': forms.NumberInput(attrs={'placeholder': 'Enter the number of people'}),
             'booking_date': forms.DateInput(attrs={'type': 'date'}),
+            'booking_time': forms.Select(choices=[(f"{hour:02d}:{minute:02d}", f"{hour:02d}:{minute:02d}") for hour in range(10, 18) for minute in range(0, 60, 15)], attrs={'class': 'form-select'}),
             'user': forms.HiddenInput(),
         }
 

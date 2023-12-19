@@ -39,7 +39,10 @@ function validateForm() {
     }
 
     var today = new Date();
+    today.setHours(0, 0, 0, 0);
+
     var selectedDate = new Date(bookingDate);
+    selectedDate.setHours(0, 0, 0, 0);
 
     if (selectedDate < today) {
         alert('Booking date cannot be in the past.');
