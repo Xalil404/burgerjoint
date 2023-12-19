@@ -41,7 +41,7 @@ The Burger website consists of the following pages and features:
 
 * Create Table Booking Page
 
-<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698495264/Project%204/Screenshot_2023-10-28_at_1.14.01_PM_faby1v.png" width="auto" height="auto" alt="table booking page"> 
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1702979933/Project%204/Screenshot_2023-12-19_at_9.58.23_AM_ggqvum.png" width="auto" height="auto" alt="table booking page"> 
 
 * View Bookings Page with options to edit or delete bookings
 
@@ -49,11 +49,11 @@ The Burger website consists of the following pages and features:
 
 * Edit or Update Booking Page
 
-<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698495521/Project%204/Screenshot_2023-10-28_at_1.18.22_PM_fdrent.png" width="auto" height="auto" alt="Edit bookings page"> 
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1702980064/Project%204/Screenshot_2023-12-19_at_10.00.52_AM_h7hl0t.png" width="auto" height="auto" alt="Edit bookings page"> 
 
 * Create Food delivery order page 
 
-<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698496841/Project%204/Screenshot_2023-10-28_at_1.40.22_PM_w763aj.png" width="auto" height="auto" alt="create food delivery page"> 
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1702980201/Project%204/Screenshot_2023-12-19_at_10.03.09_AM_eahamc.png" width="auto" height="auto" alt="create food delivery page"> 
 
 * View Food Deliveries Page with options to edit or delete delivery
 
@@ -61,7 +61,7 @@ The Burger website consists of the following pages and features:
 
 * Edit or Update food delivery Page
 
-<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698497025/Project%204/Screenshot_2023-10-28_at_1.43.26_PM_ehx2kh.png" width="auto" height="auto" alt="Edit delivery page"> 
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1702980350/Project%204/Screenshot_2023-12-19_at_10.05.38_AM_png8ae.png" width="auto" height="auto" alt="Edit delivery page"> 
 
 * Pop-up to confirm deletion of table booking or food delivery
 
@@ -69,7 +69,7 @@ The Burger website consists of the following pages and features:
 
 * Account Registration Page via username or google account
 
-<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1698577815/Project%204/Screenshot_2023-10-29_at_11.09.33_AM_jwufbd.png" width="auto" height="auto" alt="account registration page"> 
+<img src="https://res.cloudinary.com/dugcwv1mf/image/upload/v1702980493/Project%204/Screenshot_2023-12-19_at_10.07.59_AM_qkk4ex.png" width="auto" height="auto" alt="account registration page"> 
 
 * Account Log-in Page via username or google account
 
