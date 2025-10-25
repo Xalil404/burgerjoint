@@ -1,0 +1,251 @@
+/*For iphone 5 & Galaxy fold registration page*/
+@media (max-width: 375px) {
+    .footer {
+        margin-top: 250px; 
+    }
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #F9FAFC;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.brand {
+    font-family: Lato, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #4A4A4F;
+}
+
+.red-o {
+    color: #E84610;
+}
+
+.thin {
+    font-weight: 300;
+}
+
+.light-bg {
+    background-color: #fff;
+}
+
+.dark-bg {
+    background-color: #445261;
+}
+
+.main-bg {
+    background-color: #0f0f0f;
+}
+
+.card {
+    border: none;
+    background-color: transparent;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-flash {
+    position: absolute;
+    bottom: 5%;
+    min-width: 30%;
+    left: -2px;
+    background-color: #23BBBB;
+}
+
+.author {
+    color: white;
+    margin: 4px;
+    text-transform: uppercase;
+}
+
+.masthead {
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    height: 33vh;
+    width: 100%;
+}
+
+.masthead-text {
+    background-color: #445261;
+    color: white;
+    position: relative;
+}
+
+.masthead-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-signup {
+    background-color: #23BBBB;
+    color: #fff;
+    padding: 10px 20px; 
+    margin: 10px; 
+    border: none; 
+    border-radius: 5px;
+}
+
+.btn-signup:hover,
+.btn-signup:active {
+    background-color: #fff;
+    color: #23BBBB;
+}
+
+.link {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.link:hover,
+.link:active {
+    color: #23BBBB;
+    text-decoration: underline;
+}
+
+.carousel-indicators li {
+    list-style-type: none;
+}
+
+.container-with-background h3,
+    .container-with-background p {
+        color: white;
+}
+
+.big {
+    line-height: 2.5; 
+    
+}
+
+.container-with-background {
+    background-image: url('https://res.cloudinary.com/dugcwv1mf/image/upload/v1698056968/Project%204/Screenshot_2023-10-23_at_11.25.47_AM_hbyoha.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 120vh;     
+}
+
+.signup {
+    color: yellow;
+}
+
+.signup ul {
+    list-style-type: none; 
+}
+
+.signup label {
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+.login label {
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+.signup input[type="text"],
+.signup input[type="email"],
+.signup input[type="password"] {
+    width: 25%; 
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    width: 25%; 
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#signout {
+    padding-top: 250px;  
+}
+
+.btn-group {
+    text-align: center;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px; 
+    margin-top: 50px; 
+}
+
+#menu-title {
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+    text-align: center;
+    color: #fff;
+}
+
+.btn-group {
+    width: 500px; 
+    margin-bottom: 50px; 
+}
+
+.dropdown {
+    margin-bottom: 50px; 
+}
+
+.carousel-caption {
+    top: 0; 
+    margin-top: 100px;   
+}
+
+.banner {
+    background-image: url("https://res.cloudinary.com/dugcwv1mf/image/upload/v1698058154/Project%204/Screenshot_2023-10-23_at_11.48.43_AM_yk00qa.png");
+    background-size: cover; 
+    background-position: center; 
+    color: #fff; 
+    border: 4px solid white;
+}
+
+.main-bg {
+    flex: 1; 
+}
+
+.white-text {
+    color: white; 
+}
+
+.bd-placeholder-img {
+    width: 100%;
+}
+
+form.form .form-group {
+    margin-bottom: 30px;
+}
+
+@media (min-width: 1200px) {
+    .carousel {
+        width: 100%;
+    }
+    .carousel-inner {
+        width: 100%;
+    }
+    .carousel-item {
+        width: 100%;
+    }
+    .carousel-item img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+}
