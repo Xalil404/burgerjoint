@@ -32,7 +32,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 
-ALLOWED_HOSTS = ['burger-joint-286ef76e4359.herokuapp.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['burger-joint-286ef76e4359.herokuapp.com', 'burgerjoint.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
